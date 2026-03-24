@@ -1,0 +1,12 @@
+from airport import *
+airport = Airport ("LEBA", 41.297445, 2.0832941)
+SetSchengen(airport)
+PrintAirport (airport)
+
+airports = LoadAirports("Airports.txt")
+SaveSchengenAirports(airports, "schengenairport.txt")
+AddAirport(airports, airport)
+RemoveAirport(airports, "LEBL")
+PlotAirports(airports)
+MapAirports(airports)
+print("Test acabado, no hay error")
