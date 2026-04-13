@@ -763,6 +763,15 @@
     </Point>
   </Placemark>
   <Placemark>
+    <name>LEBL</name>
+    <styleUrl>#SchengenStyle</styleUrl>
+    <Point>
+      <coordinates>
+        0.34555555555555556,41.29694444444444
+      </coordinates>
+    </Point>
+  </Placemark>
+  <Placemark>
     <name>LEBZ</name>
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
@@ -1551,15 +1560,6 @@
     <Point>
       <coordinates>
         10.60888888888889,1.3591666666666669
-      </coordinates>
-    </Point>
-  </Placemark>
-  <Placemark>
-    <name>LEBA</name>
-    <styleUrl>#SchengenStyle</styleUrl>
-    <Point>
-      <coordinates>
-        2.0832941,41.297445
       </coordinates>
     </Point>
   </Placemark>
