@@ -47,6 +47,7 @@ def LoadAirports (filename):
                 long = long * -1
 
             new_airport = Airport(elementos[0], lati, long)
+            SetSchengen(new_airport)
             airports.append(new_airport)
     F.close()
     return airports
