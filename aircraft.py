@@ -35,7 +35,7 @@ def LoadArrivals(filename, airports):
         elementos = line.split()
         buscador_de_errores = False
         if len(elementos) >= 2 and buscador_de_errores == False: # Aunque dice que falte dadas, el ID y el tiempo serán las informaciones mínimas necessaria para assegurar las otras funciones funcione bien
-            id = elementos[0]  #Inducimos que el documento siempre tendrá ID en la primera posición, ya que no tiene una estructura uniformada
+            id = elementos[0]  #Inducimos que el documento siempre tendrá ID en la primera posición, ya que no tiene una estructura uniformada, además es la información mínima para una aerolinea
             origin = None
             arrival = None
             airline = None
@@ -325,10 +325,12 @@ def LongDistanceArrivals(aircrafts):
     return long_distance_flights
 
 
-# test section (测试部分)
+# test section
 
 if __name__ == "__main__":
-    aircrafts = LoadArrivals("arrivals.txt")
+    airports = LoadAirports("Airports.txt")
+    aircrafts = LoadArrivals("arrivals.txt", airports)
+    #Hemos añadido 2 variables en la función de Loadaircrafts, por la tanto, lo tenemos que definir así
     PlotArrivals(aircrafts)
     SaveFlights(aircrafts, "file")
     PlotAirlines(aircrafts)
