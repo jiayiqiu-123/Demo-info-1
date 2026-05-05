@@ -228,30 +228,30 @@ def cmd_map_trajectories():
 
 
 def cmd_filter_long_distance():
+    # 1. Verificar si hay datos cargados en la lista general de aviones
     if not aircrafts:
-        show_message("Warning: No aircraft data to filter.", "red")
+        show_message("Warning: No aircraft data to filter. Please load arrivals first.", "red")
         return
 
+    # 2. Ejecutar la lógica de filtrado (esto devuelve la lista de objetos)
+    # Guardamos el resultado en una variable global o de mayor alcance si necesitas usarla fuera
     long_flights = LongDistanceArrivals(aircrafts)
+
     clear_interactions()
 
-    if long_flights:
-        show_message(f"Found {len(long_flights)} flights > 2000km. Enter filename to save:", "blue")
-        tk.Label(input_frame, text="Filename:").grid(row=0, column=0, padx=5)
-        ent_file = tk.Entry(input_frame)
-        ent_file.grid(row=0, column=1)
+    # 3. Informar al usuario del resultado
+    if len(long_flights) > 0:
+        # Mensaje confirmando que se han guardado en la lista interna
+        msg = f"Success: {len(long_flights)} long distance flights filtered and stored in list."
+        show_message(msg, "green")
 
-        def on_save_long():
-            filename = ent_file.get()
-            if filename:
-                if not filename.endswith(".txt"): filename += ".txt"
-                SaveFlights(long_flights, filename)
-                show_message(f"Success: Filtered flights saved to {filename}", "green")
-                clear_interactions()
-
-        tk.Button(input_frame, text="Save Filtered", command=on_save_long).grid(row=0, column=2, padx=10)
+        # Opcional: Imprimir en consola para verificar los objetos
+        print(f"DEBUG: Se han guardado {len(long_flights)} objetos en la lista temporal.")
     else:
         show_message("Result: No flights longer than 2000km found.", "orange")
+
+    # Limpiamos el panel después de unos segundos
+    root.after(3000, clear_interactions)
 
 
 # Ventana
