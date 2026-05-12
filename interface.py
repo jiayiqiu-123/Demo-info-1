@@ -150,7 +150,7 @@ def cmd_plot():
 def cmd_map_airports():
     if airports:
         MapAirports(airports)
-        show_message("Map Created: KML file generated (Google Earth).", "green")
+        show_message("Map Created: KML file generated (Google Earth). It opens automatically with Google Earth, or you can use the web version.", "green")
     else:
         show_message("Warning: No data to show on map.", "red")
 
@@ -222,7 +222,7 @@ def cmd_plot_schengen_v_non():
 def cmd_map_trajectories():
     if aircrafts:
         MapFlights(aircrafts)
-        show_message("Map Created: Flight trajectories generated.", "green")
+        show_message("Map Created: Flight trajectories generated. It opens automatically with Google Earth, or you can use the web version.", "green")
     else:
         show_message("Warning: No aircraft data for map.", "red")
 

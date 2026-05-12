@@ -74,3 +74,88 @@ def LoadAirlines(terminal, t_name):
         return -1
     except:
         return -1
+
+def LoadAirportStructure(filename):
+    if not os.path.exists(filename):
+        return -1
+
+    try:
+        f = open(filename, "r")
+        lines = f.readlines()
+        f.close()
+
+        if len(lines) == 0:
+            return -1
+
+        first_line = lines[0].strip().split()
+        if len(first_line) == 0:
+            return -1
+
+        airport_code = first_line[0]
+        airport = BarcelonaAP(airport_code)
+
+        i = 1
+        current_terminal = None
+
+        while i < len(lines):
+            line = lines[i].strip()
+
+            if line:
+                parts = line.split()
+
+                if parts[0] == "Terminal":
+                    t_name = parts[1]
+                    current_terminal = Terminal(t_name)
+                    airport.Terminals.append(current_terminal)
+
+                    LoadAirlines(current_terminal, t_name)
+
+                elif parts[0] == "Area":
+                    if current_terminal is not None:
+                        area_name = parts[1]
+                        area_type = parts[2]
+
+                        new_area = BoardingArea(area_name, area_type)
+                        current_terminal.BoardingAreas.append(new_area)
+
+                        if "Gates" in parts:
+                            idx_gates = parts.index("Gates")
+                            init_gate = int(parts[idx_gates + 1])
+                            end_gate = int(parts[idx_gates + 2])
+
+                            prefix = current_terminal.Name + area_name
+
+                            SetGates(new_area, init_gate, end_gate, prefix)
+            i += 1
+
+        return airport
+
+    except:
+        return -1
+
+
+def GateOccupancy(bcn):
+    gates_list = []
+
+    for terminal in bcn.Terminals:
+        for area in terminal.BoardingAreas:
+            for gate in area.Gates:
+                if gate.Occupied:
+                    gates_list.append([gate.Name, "occupied", gate.Aircraft])
+                else:
+                    gates_list.append([gate.Name, "free", ""])
+
+    return gates_list
+
+
+def IsAirlineInTerminal(terminal, name):
+    if name == "":
+        return False, -1
+
+    if len(terminal.Airlines) == 0:
+        return False
+
+    if name in terminal.Airlines:
+        return True
+    else:
+        return False
