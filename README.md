@@ -36,3 +36,17 @@ Se ha rediseñado la interfaz para que las gráficas y los paneles de interacci�
 * Simplificación de código: Siguiendo la línea de la V1, buscaremos simplificar la lógica de cara a la última entrega.
 * En la función de PlotFlightsType(aircrafts), se ha considerado los aircraft sin origen como aeropuertos non-schengen. (Hay que preguntar sobre esto)
 
+## Versión 3 (V3)
+
+Se ha completado la arquitectura lógica de asignación de puertas y se ha integrado totalmente en la interfaz gráfica:
+* `LoadAirportStructure`, `AssignGate`, `GateOccupancy`, `SearchTerminal` e `IsAirlineInTerminal`.
+
+Tanto el nuevo módulo (`LEBL.py`) como el entorno visual funcionan correctamente.
+
+### Mejoras en la interfaz:
+Se ha extendido el panel con botones interactivos para la carga de estructuras, asignación de vuelos (individual y en lote) y resúmenes de terminales, mostrando el mapa de ocupación de puertas integrado mediante un gráfico de Matplotlib.
+
+### Correcciones y optimización:
+* Cierre de tareas V2: Se ha unificado el criterio para los vuelos sin origen y se ha confirmado el uso estricto de parámetros en `LoadArrivals`.
+* Calidad en interfaz V1: Se han añadido los botones `Set Schengen Attr.` y `Show Airports Data` de forma incrustada para evitar salidas por consola.
+* Optimización de Larga Distancia y Mapas (KML): Se ha perfeccionado el filtrado de `LongDistanceArrivals` y la exportación de trayectorias para Google Earth (`MapFlights`), asegurando un cálculo de distancias preciso y una apertura automatizada y fluida del mapa.

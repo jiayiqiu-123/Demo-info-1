@@ -198,25 +198,25 @@ def PlotFlightsType(aircrafts):
                 schengen_count = schengen_count + 1
             else: #Consideramos automaticamente los aeropuertos sin origin como non schengen_count
                 non_schengen_count = non_schengen_count + 1
+        else:
+            non_schengen_count = non_schengen_count + 1
         i = i + 1
 
 
-    categories = ['Schengen', 'non-Schengen']
-    counts = [schengen_count, non_schengen_count]
-
-
     #pyplot
-    plt.figure(figsize=(8, 6))
+    plt.figure(figsize=(6, 6))
 
-    plt.bar(categories, counts, color=['green', 'red'], edgecolor='black', width=0.6)
+    plt.bar(['Flights'], [schengen_count], color='green', edgecolor='black', width=0.4, label='Schengen')
+    plt.bar(['Flights'], [non_schengen_count], bottom=[schengen_count], color='red', edgecolor='black', width=0.4, label='non-Schengen')
 
     plt.title('Type of Flights: Schengen vs non-Schengen')
     plt.xlabel('Origin Region')
     plt.ylabel('Number of Aircrafts')
 
-    plt.text(0, schengen_count + 0.1, str(schengen_count), ha='center', fontweight='bold')
-    plt.text(1, non_schengen_count + 0.1, str(non_schengen_count), ha='center', fontweight='bold')
+    plt.text(0, schengen_count / 2, str(schengen_count), ha='center', va='center', fontweight='bold', color='white')
+    plt.text(0, schengen_count + (non_schengen_count / 2), str(non_schengen_count), ha='center', va='center', fontweight='bold', color='white')
 
+    plt.legend()
     plt.show()
 
 def MapFlights(aircrafts):
@@ -322,6 +322,59 @@ def LongDistanceArrivals(aircrafts):
 
         i = i + 1
 
+    # --- Generación de KML para Google Earth exclusivo de Larga Distancia ---
+    if len(long_distance_flights) > 0:
+        f = open("long_distance_flights.kml", "w")
+        f.write("<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n")
+        f.write("<Document>\n")
+        f.write("  <name>Long Distance Flight Trajectories to LEBL</name>\n")
+
+        f.write("  <Style id=\"SchengenLine\">\n")
+        f.write("    <LineStyle><color>ff00ff00</color><width>2</width></LineStyle>\n")
+        f.write("  </Style>\n")
+
+        f.write("  <Style id=\"NonSchengenLine\">\n")
+        f.write("    <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>\n")
+        f.write("  </Style>\n")
+
+        j = 0
+        while j < len(long_distance_flights):
+            ac = long_distance_flights[j]
+            origin_ap = ac.origin
+
+            if origin_ap is not None:
+                f.write("  <Placemark>\n")
+                f.write("    <name>" + str(ac.Id) + " - " + str(origin_ap.ICAO) + "</name>\n")
+
+                if origin_ap.Schengen == True:
+                    f.write("    <styleUrl>#SchengenLine</styleUrl>\n")
+                else:
+                    f.write("    <styleUrl>#NonSchengenLine</styleUrl>\n")
+
+                f.write("    <LineString>\n")
+                f.write("      <altitudeMode>clampToGround</altitudeMode>\n")
+                f.write("        <tessellate>1</tessellate>\n")
+                f.write("           <coordinates>\n")
+
+                line_coords = f"        {origin_ap.longitude},{origin_ap.latitude}\n"
+                line_coords += f"        {lon_lebl},{lat_lebl}\n"  # <-- Corregido para usar las variables correctas de esta función
+
+                f.write(line_coords)
+                f.write("           </coordinates>\n")
+                f.write("    </LineString>\n")
+                f.write("  </Placemark>\n")
+            j = j + 1
+
+        f.write("</Document>\n")
+        f.write("</kml>\n")
+        f.close()
+
+        try:
+            import os
+            os.startfile("long_distance_flights.kml")
+        except:
+            print("KML de larga distancia generado, pero Google Earth no pudo abrirse automáticamente.")
+
     return long_distance_flights
 
 
@@ -330,11 +383,9 @@ def LongDistanceArrivals(aircrafts):
 if __name__ == "__main__":
     airports = LoadAirports("Airports.txt")
     aircrafts = LoadArrivals("arrivals.txt", airports)
-    #Hemos añadido 2 variables en la función de Loadaircrafts, por la tanto, lo tenemos que definir así
     PlotArrivals(aircrafts)
     SaveFlights(aircrafts, "file")
     PlotAirlines(aircrafts)
     PlotFlightsType(aircrafts)
     MapFlights(aircrafts)
     LongDistanceArrivals(aircrafts)
-
