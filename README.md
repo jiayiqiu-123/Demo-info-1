@@ -50,3 +50,6 @@ Se ha extendido el panel con botones interactivos para la carga de estructuras, 
 * Cierre de tareas V2: Se ha unificado el criterio para los vuelos sin origen y se ha confirmado el uso estricto de parámetros en `LoadArrivals`.
 * Calidad en interfaz V1: Se han añadido los botones `Set Schengen Attr.` y `Show Airports Data` de forma incrustada para evitar salidas por consola.
 * Optimización de Larga Distancia y Mapas (KML): Se ha perfeccionado el filtrado de `LongDistanceArrivals` y la exportación de trayectorias para Google Earth (`MapFlights`), asegurando un cálculo de distancias preciso y una apertura automatizada y fluida del mapa.
+
+### Tareas pendientes y correcciones:
+* Hay que mejorar la función Plot Gate Occupancy, para que sea más user-friendly
