@@ -316,7 +316,7 @@ def cmd_build_airport_structure():
 
 
 def cmd_assign_gate_interface():
-    """Permite al usuario interactuar para asignar una puerta a un avion del listado V2"""
+    """Permite al usuario interactuar para asignar una puerta o todas automáticamente"""
     global bcn_airport, aircrafts
     clear_interactions()
 
@@ -328,13 +328,27 @@ def cmd_assign_gate_interface():
         show_message("Warning: Load aircraft arrivals list from V2 first.", "red")
         return
 
-    show_message("Enter the index of the aircraft from list to assign gate:", "blue")
+    show_message("Choose Single Assignment via index OR Assign All Automatically:", "blue")
 
     tk.Label(input_frame, text=f"Aircraft Index (0 - {len(aircrafts) - 1}):").grid(row=0, column=0, padx=5)
     ent_idx = tk.Entry(input_frame, width=8)
     ent_idx.grid(row=0, column=1)
+    ent_idx.insert(0, "0")  # 默认填0
 
-    def on_assign():
+    class SmartOrigin(str):
+        pass
+
+    def prepare_aircraft_origin(ac):
+        if ac.origin is not None and not isinstance(ac.origin, SmartOrigin):
+            original = ac.origin
+            wrapper = SmartOrigin(original.ICAO)
+            wrapper.ICAO = original.ICAO
+            wrapper.latitude = original.latitude
+            wrapper.longitude = original.longitude
+            wrapper.Schengen = original.Schengen
+            ac.origin = wrapper
+
+    def on_assign_single():
         try:
             idx = int(ent_idx.get())
             if idx < 0 or idx >= len(aircrafts):
@@ -342,20 +356,66 @@ def cmd_assign_gate_interface():
                 return
 
             selected_aircraft = aircrafts[idx]
+
+            if selected_aircraft.Company is not None:
+                selected_aircraft.Company = selected_aircraft.Company.upper()
+            selected_aircraft.company = selected_aircraft.Company
+
+            original_origin = selected_aircraft.origin
+            prepare_aircraft_origin(selected_aircraft)
+
+
             gate_allocated = AssignGate(bcn_airport, selected_aircraft)
 
+            selected_aircraft.origin = original_origin
+
             if gate_allocated == -1:
-                show_message(f"Result: No free matching gate for {selected_aircraft.Id} ({selected_aircraft.Company}).",
-                             "orange")
+                show_message(f"Result: No free matching gate or terminal for {selected_aircraft.Id}.", "orange")
             else:
                 show_message(f"Success: Aircraft {selected_aircraft.Id} assigned to Gate {gate_allocated}.", "green")
                 clear_interactions()
-                # Actualizar grafico de ocupación automáticamente tras asignación exitosa
                 cmd_plot_gate_occupancy()
+
         except ValueError:
             show_message("Error: Please enter a valid numerical index.", "red")
+        except Exception as error:
+            show_message(f"Runtime Error: {str(error)}", "red")
 
-    tk.Button(input_frame, text="Assign Gate", command=on_assign).grid(row=0, column=2, padx=10)
+    def on_assign_all_automatically():
+        try:
+            success_count = 0
+            fail_count = 0
+
+            i = 0
+            while i < len(aircrafts):
+                ac = aircrafts[i]
+
+                if ac.Company is not None:
+                    ac.Company = ac.Company.upper()
+                ac.company = ac.Company
+
+                original_origin = ac.origin
+                prepare_aircraft_origin(ac)
+
+                gate_allocated = AssignGate(bcn_airport, ac)
+
+                ac.origin = original_origin
+
+                if gate_allocated != -1:
+                    success_count += 1
+                else:
+                    fail_count += 1
+                i += 1
+
+            show_message(f"Auto-Process Done! Assigned: {success_count} flights. Failed/Full: {fail_count}.", "green")
+            cmd_plot_gate_occupancy()
+
+        except Exception as error:
+            show_message(f"Runtime Error during batch processing: {str(error)}", "red")
+
+    tk.Button(input_frame, text="Assign Single Gate", command=on_assign_single).grid(row=0, column=2, padx=5)
+    tk.Button(input_frame, text="⚡ Assign All Automatically", command=on_assign_all_automatically, bg="#d4edda",
+              fg="green").grid(row=0, column=3, padx=5)
 
 
 def cmd_plot_gate_occupancy():

@@ -215,7 +215,7 @@ def AssignGate(bcn, aircraft):
         return -1
 
     # CORREGIDO: Se determina el tipo de área objetivo mediante el origen del vuelo
-    schengen = IsSchengenAirport(aircraft_origin)
+    schengen = IsSchengenAirport(aircraft_origin.ICAO)
     if schengen == True:
         target_type = "Schengen"
     else:
