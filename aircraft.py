@@ -1,14 +1,19 @@
 import matplotlib.pyplot as plt
 import math
 import os
+
+from fontTools.misc.textTools import deHexStr
+
 from airport import *
 
 class Aircraft:
-    def __init__(self, id, comp, origin,time):
+    def __init__(self, id, comp, origin,time, dest, dtime):
         self.Id = id
         self.Company = comp
         self.origin = origin #Importante este hay que poner los aeropuertos que están definidos en versión 1!!
         self.time = time
+        self.Destination = dest
+        self.DepartureTime = dtime
 
 # CONDICIONES IMPORTANTE PARA LOADARRIVALS:
 #In the file you will not find all data defined in the structure Aircraft, so update only the fields of the structure you can.
@@ -377,6 +382,96 @@ def LongDistanceArrivals(aircrafts):
 
     return long_distance_flights
 
+
+#Version 4
+
+def LoadDepartures(filename):
+
+    if not os.path.exists(filename):
+        return [], -1
+
+    departures_list = []
+
+    try:
+        with open(filename, "r", encoding="utf-8") as f:
+            header = f.readline()
+
+            line = f.readline()
+            while line != "":
+                line = line.strip()
+                if line:
+                    parts = line.split()
+                    if len(parts) >= 4:
+                        ac_id = parts[0].strip()
+                        dest = parts[1].strip()
+                        dep_time = parts[2].strip()
+                        airline = parts[3].strip()
+
+                        ac = Aircraft(aircraft_id=ac_id, company=airline)
+                        ac.Destination = dest
+                        ac.DepartureTime = dep_time
+
+                        departures_list.append(ac)
+                line = f.readline()
+
+        return departures_list, 0
+    except:
+        return [], -1
+
+
+def MergeMovements(arrivals, departures):
+    if not arrivals or not departures:
+        return -1
+
+    merged_list = []
+    used_departures = set()
+
+    def time_to_minutes(t_str):
+        if not t_str or ":" not in t_str:
+            return 0
+        h, m = map(int, t_str.split(":"))
+        return h * 60 + m
+
+    for arr_ac in arrivals:
+        new_ac = Aircraft(arr_ac.Id,arr_ac.Company,arr_ac.ArrivalTime,arr_ac.origin)
+
+        matched_dep = None
+        for dep_ac in departures:
+            if dep_ac.Id == arr_ac.Id and dep_ac not in used_departures:
+                arr_min = time_to_minutes(arr_ac.ArrivalTime)
+                dep_min = time_to_minutes(dep_ac.DepartureTime)
+
+                if arr_min < dep_min:
+                    matched_dep = dep_ac
+                    break
+
+        if matched_dep:
+            new_ac.Destination = matched_dep.Destination
+            new_ac.DepartureTime = matched_dep.DepartureTime
+            used_departures.add(matched_dep)
+
+        merged_list.append(new_ac)
+
+    for dep_ac in departures:
+        if dep_ac not in used_departures:
+            night_ac = Aircraft(dep_ac.Id, dep_ac.Company)
+            night_ac.Destination = dep_ac.Destination
+            night_ac.DepartureTime = dep_ac.DepartureTime
+            merged_list.append(night_ac)
+
+    return merged_list
+
+
+def NightAircraft(aircrafts):
+    if not aircrafts:
+        return -1
+
+    night_list = []
+    for ac in aircrafts:
+        if (ac.ArrivalTime == "" or ac.ArrivalTime is None) and ac.DepartureTime != "":
+            night_list.append(ac)
+
+    return night_list
 
 # test section
 
