@@ -1,209 +1,224 @@
 import matplotlib.pyplot as plt
 import os
-#No sé si se puede utilizar el import os, esto es para abrir el Google Earth de manera automática
 
+# Clase que representa un aeropuerto con sus datos básicos
 class Airport:
-    def __init__(self, code, lat, lon): #Hay que poner 2 barras bajas para esta función
-        self.ICAO = code #Para facilitar la definición, hay que dejarlo en este formato, así podremos definir ICAO, latitude, longitude en el mismo parentesis (como el step2)
-        self.latitude = lat
-        self.longitude = lon
-        self.Schengen = False
+    def __init__(self, code, lat, lon):
+        self.ICAO = code        # Código ICAO del aeropuerto (4 caracteres, ej: LEBL)
+        self.latitude = lat     # Latitud en grados decimales (positivo = Norte, negativo = Sur)
+        self.longitude = lon    # Longitud en grados decimales (positivo = Este, negativo = Oeste)
+        self.Schengen = False   # Por defecto no es Schengen, se actualiza con SetSchengen()
 
-llistaSchengen = ['LO', 'EB', 'LK', 'LC', 'EK', 'EE', 'EF', 'LF', 'ED', 'LG', 'EH', 'LH','BI','LI', 'EV', 'EY', 'EL', 'LM', 'EN', 'EP', 'LP', 'LZ', 'LJ', 'LE', 'ES','LS']
+# Conjunto de prefijos ICAO que pertenecen a países del espacio Schengen
+# Usamos {} en vez de [] porque es un "set": más rápido para buscar elementos con "in"
+llistaSchengen = {'LO', 'EB', 'LK', 'LC', 'EK', 'EE', 'EF', 'LF', 'ED', 'LG', 'EH', 'LH',
+                  'BI', 'LI', 'EV', 'EY', 'EL', 'LM', 'EN', 'EP', 'LP', 'LZ', 'LJ', 'LE',
+                  'ES', 'LS'}
 
 def IsSchengenAirport(code):
-    if not code: #If the input parameter is empty then False is returned.
+    # Recibe un código ICAO y devuelve True si el aeropuerto está en un país Schengen
+    if not code:                            # Si el código está vacío, devuelve False directamente
         return False
-    pertenece = False
-    i = 0
-    while pertenece == False and i < len(llistaSchengen):
-        if code[0:2].upper() == llistaSchengen[i]: # Para leer solo los 2 primeros caracteres de un str, hay que poner [0:2]. (Esta función funciona sin perteneciendo el último carácter, osea, así"[)")
-            pertenece = True
-            return pertenece
-        i = i + 1
-    return False
+    return code[:2].upper() in llistaSchengen
+    # code[:2] coge solo los 2 primeros caracteres del código (ej: "LEBL" → "LE")
+    # .upper() lo convierte a mayúsculas por si acaso el usuario escribe en minúsculas
+    # "in llistaSchengen" comprueba si esos 2 caracteres están en el conjunto Schengen
 
-def SetSchengen (airport): #lo que hace por aquí es definir el elemento Schengen del aeropuerto.
+def SetSchengen(airport):
+    # Recibe un objeto Airport y actualiza su atributo Schengen (True o False)
+    # Llama a IsSchengenAirport() para saber si el aeropuerto es Schengen o no
     airport.Schengen = IsSchengenAirport(airport.ICAO)
 
-def PrintAirport (airport):
-    print(airport.__dict__) #Esto es una función de "clase", lo que hace es escribir todos los elementos que hemos definido. (en el test_airport (hace prueba a todas estas funciones) se ve mejor)
+def PrintAirport(airport):
+    # Imprime por consola los datos de un aeropuerto de forma legible
+    # :.4f significa que imprime el número con 4 decimales (ej: 41.2974)
+    print(f"ICAO: {airport.ICAO} | Lat: {airport.latitude:.4f} | "
+          f"Lon: {airport.longitude:.4f} | Schengen: {airport.Schengen}")
 
-def LoadAirports (filename):
-    F = open(filename, 'r')
-    linea = F.readline()
-    airports = []
-    while linea != "":
-        linea = F.readline()
-        elementos = linea.split() #trata por defecto cualquier secuencia de espacios en blanco como un solo separador, resolviendo problemas de alineación.
-        if len(elementos) >= 3: #Para evitar líneas en espacios que salga errores
-            lat = elementos[1]
-            lon = elementos[2]
-            lati = float(lat[1:3]) + (float(lat[3:5]) / 60) + (float(lat[5:7]) / 3600)
-            long = float(lon[1:3]) + (float(lon[3:5]) / 60) + (float(lon[5:7]) / 3600)
-            if lat[0] == "S":
-                lati = lati * -1
-            if lon[0] == "W":
-                long = long * -1
+def LoadAirports(filename):
+    # Abre un fichero de texto con aeropuertos y devuelve una lista de objetos Airport
+    # El fichero tiene el formato: CODE LAT LON (con cabecera en la primera línea)
+    # Si el fichero no existe, devuelve una lista vacía
+    try:
+        with open(filename, 'r') as F:  # Abre el fichero en modo lectura ('r' = read)
+            next(F)                     # Salta la primera línea (cabecera: "CODE LAT LON")
+            airports = []
+            for linea in F:             # Recorre todas las líneas del fichero una a una
+                elementos = linea.split()   # Separa la línea por espacios → ["LEBL", "N411749", "E0020442"]
+                if len(elementos) >= 3:     # Evita errores si hay líneas vacías o incompletas
+                    lat = elementos[1]      # Coge el segundo elemento (latitud), ej: "N411749"
+                    lon = elementos[2]      # Coge el tercer elemento (longitud), ej: "E0020442"
 
-            new_airport = Airport(elementos[0], lati, long)
-            SetSchengen(new_airport)
-            airports.append(new_airport)
-    F.close()
-    return airports
+                    # Convierte formato DMS (grados, minutos, segundos) a grados decimales
+                    # lat[1:3] = grados (2 dígitos), lat[3:5] = minutos, lat[5:7] = segundos
+                    lati = float(lat[1:3]) + (float(lat[3:5]) / 60) + (float(lat[5:7]) / 3600)
+                    # lon[1:4] = grados (3 dígitos porque longitud puede llegar a 180°)
+                    long = float(lon[1:4]) + (float(lon[4:6]) / 60) + (float(lon[6:8]) / 3600)
+
+                    if lat[0] == "S":   # Si el primer carácter es "S" (Sur), la latitud es negativa
+                        lati = -lati
+                    if lon[0] == "W":   # Si el primer carácter es "W" (Oeste), la longitud es negativa
+                        long = -long
+
+                    new_airport = Airport(elementos[0], lati, long)  # Crea el objeto Airport
+                    SetSchengen(new_airport)        # Le asigna si es Schengen o no
+                    airports.append(new_airport)    # Lo añade a la lista
+    except FileNotFoundError:
+        print(f"Error: File '{filename}' not found.")
+        return []       # Si no existe el fichero, devuelve lista vacía
+    return airports     # Devuelve la lista con todos los aeropuertos cargados
 
 def SaveSchengenAirports(airports, filename):
-    f = open(filename, "w")
+    # Guarda en un fichero solo los aeropuertos Schengen de la lista
+    # El formato de salida es el mismo que el del fichero de entrada
+    # Si la lista está vacía, no crea el fichero y devuelve -1 (código de error)
+    if not airports:    # "not airports" es True cuando la lista está vacía
+        return -1
 
-    f.write("ICAO\tLatitude\tLongitude\n")
+    encontrado = False  # Controla si hemos encontrado algún aeropuerto Schengen
+    with open(filename, 'w') as f:  # Abre el fichero en modo escritura ('w' = write)
+        f.write("CODE\tLAT\tLON\n")    # Escribe la cabecera (\t = tabulación, \n = salto de línea)
+        for airport in airports:
+            SetSchengen(airport)        # Actualiza el atributo Schengen antes de comprobar
+            if airport.Schengen:        # Solo guarda los aeropuertos Schengen
+                encontrado = True
+                lat = airport.latitude
+                lon = airport.longitude
 
-    i = 0
-    encontrado = False
-    while i < len(airports):
-        SetSchengen(airports[i])
-        if airports[i].Schengen == True:
-            encontrado = True
-            lat = airports[i].latitude
-            lon = airports[i].longitude
-            if lat >= 0:
-                letra_lat = "N"
-            else:
-                letra_lat = "S"
-                lat = lat * -1
-            if lon >= 0:
-                letra_lon = "E"
-            else:
-                letra_lon = "W"
-                lon = lon * -1
-            # Recorda que el int quita los decimales, a través de esto pasamos de grados en min y segundos
-            deg_lat = int(lat)
-            min_lat = int((lat - deg_lat) * 60)
-            sec_lat = int(round((lat - deg_lat - min_lat / 60) * 3600)) # round es igual a arondonir
+                # Determina la letra de dirección (N/S para latitud, E/W para longitud)
+                # Sintaxis: "valor_si_true" if condicion else "valor_si_false"
+                letra_lat = "N" if lat >= 0 else "S"
+                letra_lon = "E" if lon >= 0 else "W"
+                lat = abs(lat)  # abs() convierte el número a positivo (valor absoluto)
+                lon = abs(lon)
 
-            deg_lon = int(lon)
-            min_lon = int((lon - deg_lon) * 60)
-            sec_lon = int(round((lon - deg_lon - min_lon / 60) * 3600))
-            # para cuando sec = 60 no de error, y que quede en 59
-            if sec_lat >= 60:
-                sec_lat = 0
-                min_lat = min_lat + 1
+                # Convierte grados decimales a grados, minutos y segundos (DMS)
+                deg_lat = int(lat)                              # int() quita los decimales → grados
+                min_lat = int((lat - deg_lat) * 60)            # La parte decimal × 60 → minutos
+                sec_lat = int(round((lat - deg_lat - min_lat / 60) * 3600))  # Lo que queda × 3600 → segundos
+                if sec_lat >= 60:   # Corrección por redondeo: si los segundos llegan a 60, pasan a minutos
+                    sec_lat = 0
+                    min_lat += 1    # += 1 es lo mismo que min_lat = min_lat + 1
 
-            if sec_lon >= 60:
-                sec_lon = 0
-                min_lon = min_lon + 1
+                deg_lon = int(lon)
+                min_lon = int((lon - deg_lon) * 60)
+                sec_lon = int(round((lon - deg_lon - min_lon / 60) * 3600))
+                if sec_lon >= 60:
+                    sec_lon = 0
+                    min_lon += 1
 
-            # Ponemos zill fill para que los números de una unidad ponga 0N
-            str_lat = letra_lat + str(deg_lat).zfill(2) + str(min_lat).zfill(2) + str(sec_lat).zfill(2)
-            str_lon = letra_lon + str(deg_lon).zfill(2) + str(min_lon).zfill(2) + str(sec_lon).zfill(2)
+                # zfill(n) rellena con ceros a la izquierda hasta tener n dígitos (ej: 2 → "02")
+                str_lat = letra_lat + str(deg_lat).zfill(2) + str(min_lat).zfill(2) + str(sec_lat).zfill(2)
+                str_lon = letra_lon + str(deg_lon).zfill(3) + str(min_lon).zfill(2) + str(sec_lon).zfill(2)
+                f.write(f"{airport.ICAO}\t{str_lat}\t{str_lon}\n")  # Escribe la línea en el fichero
 
-            linea = airports[i].ICAO + "\t" + str_lat + "\t" + str_lon + "\n"
-            f.write(linea)
-
-        i = i + 1
-
-    f.close()
-    return encontrado
+    return encontrado   # Devuelve True si se guardaron aeropuertos, False si ninguno era Schengen
 
 def AddAirport(airports, airport):
-    i = 0
-    encontrado = False
-    while i < len(airports) and encontrado == False:
-        if airport.ICAO == airports[i].ICAO:
-            print(f"The airport {airport.ICAO} is in the list ")
-            encontrado = True
-            return False
-        i = i + 1
-    if encontrado == False:
-        airports.append(airport)
-    return True
+    # Añade un aeropuerto a la lista si no existe ya (comprueba por código ICAO)
+    # any() recorre la lista y devuelve True si encuentra al menos un elemento que cumpla la condición
+    if any(a.ICAO == airport.ICAO for a in airports):
+        print(f"The airport {airport.ICAO} is already in the list.")
+        return False    # El aeropuerto ya existe, no se añade
+    airports.append(airport)    # append() añade el elemento al final de la lista
+    return True         # Se añadió correctamente
 
+def RemoveAirport(airports, code):
+    # Elimina de la lista el aeropuerto con el código ICAO recibido
+    # Si no existe, imprime un error y devuelve False
+    code_upper = code.upper()       # Convierte a mayúsculas para evitar errores de capitalización
+    original_len = len(airports)    # Guarda la longitud original para comprobar si se borró algo
 
-def RemoveAirport(airports, code): # En el versión 4 se puede cambiar por un remove
-    encontrado = False
-    i = 0
-    while i < len(airports) and encontrado == False:
-        if code.upper() == airports[i].ICAO: # podemos utilizar upper() para que el code introducido sea en mayúsculas
-            j = i
-            while j < len(airports) - 1:
-                airports[j] = airports[j + 1]
-                j = j + 1
-            airports[:] = airports[:-1] # Esta línea hace que el numero de espacios de la lista disminuya uno, ósea, len(airports) - 1
-            encontrado = True
-        i = i + 1
-    if not encontrado:
+    # Reemplaza la lista por una nueva lista que NO incluye el aeropuerto con ese código
+    # Sintaxis: [expresion for variable in lista if condicion]
+    airports[:] = [a for a in airports if a.ICAO != code_upper]
+
+    if len(airports) == original_len:   # Si la longitud no cambió, no se encontró el aeropuerto
         print(f"Error: Airport {code} not found.")
         return False
-    return True
-
+    return True     # Se eliminó correctamente
 
 def PlotAirports(airports):
-    schengen_count = 0
-    non_schengen_count = 0
+    # Muestra un gráfico de barras apiladas con el número de aeropuertos Schengen y no Schengen
+    if not airports:
+        print("Error: No airports to plot.")
+        return  # Sale de la función sin hacer nada más
 
-    i = 0
-    while i < len(airports):
-        SetSchengen(airports[i])
-        if airports[i].Schengen == True:
-            schengen_count = schengen_count + 1
-        else:
-            non_schengen_count = non_schengen_count + 1
-        i = i + 1
+    # sum(1 for a in airports if a.Schengen) cuenta cuántos aeropuertos tienen Schengen=True
+    schengen_count = sum(1 for a in airports if a.Schengen)
+    non_schengen_count = len(airports) - schengen_count  # El resto son no Schengen
 
-    labels = ['Airports'] # nombre de eje x
-    plt.ylabel('Number of Airports') # nombre de eje y
-    plt.title('Schengen vs Non-Schengen') # nombre del título
-    plt.bar(labels, [schengen_count], label='Schengen', color='blue') # Crea primero la parte schengen
-    plt.bar(labels, [non_schengen_count], bottom=[schengen_count], label='Non-Schengen', color='red') # bottom=[schengen_count] define que està arriba de parte schengen
-    plt.legend()
-    plt.show()
-
+    labels = ['Airports']
+    plt.ylabel('Number of Airports')
+    plt.title('Schengen vs Non-Schengen')
+    plt.bar(labels, [schengen_count], label='Schengen', color='blue')
+    # bottom=[schengen_count] hace que la barra roja empiece donde termina la azul (barra apilada)
+    plt.bar(labels, [non_schengen_count], bottom=[schengen_count], label='Non-Schengen', color='red')
+    plt.legend()    # Muestra la leyenda con los colores
+    plt.show()      # Muestra el gráfico en pantalla
 
 def MapAirports(airports):
-    f = open("airports_map.kml", "w")
-    #La estructura de programación de KML está explicado en el apartado Annex 1
-    # en las siguientes lineas ponemos espacios para que quede más bonito el documento KML
-    f.write("<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n")
-    f.write("<Document>\n")
+    # Genera un fichero KML con la ubicación de todos los aeropuertos
+    # Los aeropuertos Schengen aparecen en verde y los no Schengen en rojo en Google Earth
+    if not airports:
+        print("Error: No airports to map.")
+        return
+    with open("airports_map.kml", 'w') as f:
+        # Cabecera obligatoria del formato KML
+        f.write("<kml xmlns=\"http://www.opengis.net/kml/2.2\">\n")
+        f.write("<Document>\n")
 
-    #define un color para los países de schengen y otro para los países no schengen
-    f.write("  <Style id=\"SchengenStyle\">\n")
-    f.write("    <IconStyle><color>ff00ff00</color></IconStyle>\n")
-    f.write("  </Style>\n")
+        # Define los estilos de color para los puntos en Google Earth
+        # ff00ff00 = verde (formato KML: alpha-blue-green-red), ff0000ff = rojo
+        f.write("  <Style id=\"SchengenStyle\">\n")
+        f.write("    <IconStyle><color>ff00ff00</color></IconStyle>\n")
+        f.write("  </Style>\n")
+        f.write("  <Style id=\"NonSchengenStyle\">\n")
+        f.write("    <IconStyle><color>ff0000ff</color></IconStyle>\n")
+        f.write("  </Style>\n")
 
-    f.write("  <Style id=\"NonSchengenStyle\">\n")
-    f.write("    <IconStyle><color>ff0000ff</color></IconStyle>\n")
-    f.write("  </Style>\n")
+        for airport in airports:
+            SetSchengen(airport)
+            f.write("  <Placemark>\n")
+            f.write(f"    <name>{airport.ICAO}</name>\n")
+            # Operador ternario: asigna "SchengenStyle" o "NonSchengenStyle" según el atributo
+            style = "SchengenStyle" if airport.Schengen else "NonSchengenStyle"
+            f.write(f"    <styleUrl>#{style}</styleUrl>\n")
+            f.write("    <Point>\n")
+            f.write("      <coordinates>\n")
+            # En KML el orden es: longitud, latitud (al revés de lo habitual)
+            f.write(f"        {airport.longitude},{airport.latitude}\n")
+            f.write("      </coordinates>\n")
+            f.write("    </Point>\n")
+            f.write("  </Placemark>\n")
 
-    #crea un bucle para escribir el documento KML
-    i = 0
-    while i < len(airports):
-        SetSchengen(airports[i])
-        #Nombra el punto
-        f.write("  <Placemark>\n")
-        f.write("    <name>" + airports[i].ICAO + "</name>\n")
+        # Cierre obligatorio del formato KML
+        f.write("</Document>\n")
+        f.write("</kml>\n")
 
-        #Defini el color de ese punto
-        if airports[i].Schengen == True:
-            f.write("    <styleUrl>#SchengenStyle</styleUrl>\n")
-        else:
-            f.write("    <styleUrl>#NonSchengenStyle</styleUrl>\n")
-
-        #Ubica el punto
-        f.write("    <Point>\n")
-        f.write("      <coordinates>\n")
-        coords_line = "        " + str(airports[i].longitude) + "," + str(airports[i].latitude) + "\n"
-        f.write(coords_line)
-        f.write("      </coordinates>\n")
-        f.write("    </Point>\n")
-        f.write("  </Placemark>\n")
-        i = i + 1
-
-    f.write("</Document>\n")
-    f.write("</kml>\n")
-    f.close()
-    filename = "airports_map.kml"
-    try: #Para que no de error cuando el usuario no ha descargado el Google Earth
-        os.startfile("airports_map.kml")
+    try:
+        os.startfile("airports_map.kml")    # Abre el fichero KML con Google Earth (solo Windows)
     except:
         print("Map saved, but could not open Google Earth automatically.")
-    # No sé si se puede utilizar el import os, esto es para abrir el Google Earth de manera automática
+
+#Version 4
+
+def AssignNightGates(bcn, aircrafts):
+
+    if len(aircrafts) == 0:
+        return -1
+
+    i = 0
+
+    while i < len(aircrafts):
+
+        aircraft = aircrafts[i]
+
+        if aircraft.origin == "":
+            AssignGate(bcn, aircraft)
+
+        i += 1
+
+    return 0
+
+
