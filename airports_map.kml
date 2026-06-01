@@ -11,7 +11,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -2.4005555555555556,63.985
+        -22.605555555555558,63.985
       </coordinates>
     </Point>
   </Placemark>
@@ -20,7 +20,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -7.578333333333333,45.46805555555556
+        -73.74138888888889,45.46805555555556
       </coordinates>
     </Point>
   </Placemark>
@@ -29,7 +29,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -8.570833333333335,43.67722222222222
+        -79.63055555555555,43.67722222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -38,7 +38,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.5236111111111111,36.693888888888885
+        3.2144444444444447,36.693888888888885
       </coordinates>
     </Point>
   </Placemark>
@@ -47,7 +47,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.0258333333333334,36.85111111111111
+        10.226944444444445,36.85111111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -56,7 +56,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.7202777777777777,51.18944444444444
+        4.460277777777778,51.18944444444444
       </coordinates>
     </Point>
   </Placemark>
@@ -65,7 +65,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.725,50.90138888888889
+        4.484444444444445,50.90138888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -74,7 +74,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.8841666666666667,50.63638888888889
+        5.442777777777778,50.63638888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -83,7 +83,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.42055555555555557,51.19888888888889
+        2.8622222222222224,51.19888888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -92,7 +92,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.55,52.36222222222222
+        13.500555555555556,52.36222222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -101,7 +101,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.3947222222222222,50.03333333333333
+        8.570555555555556,50.03333333333333
       </coordinates>
     </Point>
   </Placemark>
@@ -110,7 +110,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.608611111111111,53.63027777777778
+        9.988333333333333,53.63027777777778
       </coordinates>
     </Point>
   </Placemark>
@@ -119,7 +119,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.1897222222222223,50.865833333333335
+        7.142777777777778,50.865833333333335
       </coordinates>
     </Point>
   </Placemark>
@@ -128,7 +128,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.0811111111111111,51.280833333333334
+        6.7572222222222225,51.280833333333334
       </coordinates>
     </Point>
   </Placemark>
@@ -137,7 +137,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.2530555555555556,48.35388888888889
+        11.786111111111111,48.35388888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -146,7 +146,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.1788888888888889,49.49861111111111
+        11.078055555555554,49.49861111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -155,7 +155,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.361388888888889,51.42388888888889
+        12.236388888888888,51.42388888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -164,7 +164,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.5252777777777777,48.69
+        9.221944444444444,48.69
       </coordinates>
     </Point>
   </Placemark>
@@ -173,7 +173,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.5363888888888888,52.55972222222222
+        13.287777777777778,52.55972222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -182,7 +182,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.5694444444444444,52.46027777777778
+        9.68361111111111,52.46027777777778
       </coordinates>
     </Point>
   </Placemark>
@@ -191,7 +191,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.7597222222222224,59.413333333333334
+        24.8325,59.413333333333334
       </coordinates>
     </Point>
   </Placemark>
@@ -200,7 +200,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.7705555555555557,60.31722222222223
+        24.96333333333333,60.31722222222223
       </coordinates>
     </Point>
   </Placemark>
@@ -209,7 +209,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.023611111111111,54.6575
+        -6.215833333333333,54.6575
       </coordinates>
     </Point>
   </Placemark>
@@ -218,7 +218,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.24583333333333335,52.45388888888889
+        -1.7480555555555557,52.45388888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -227,7 +227,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.3675,53.35388888888889
+        -2.275,53.35388888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -236,7 +236,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.5341666666666667,51.39666666666667
+        -3.3433333333333333,51.39666666666667
       </coordinates>
     </Point>
   </Placemark>
@@ -245,7 +245,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.4083333333333334,51.382777777777775
+        -2.7191666666666667,51.382777777777775
       </coordinates>
     </Point>
   </Placemark>
@@ -254,7 +254,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.41805555555555557,53.33361111111111
+        -2.8497222222222223,53.33361111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -263,7 +263,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.03888888888888889,51.874722222222225
+        -0.3683333333333333,51.874722222222225
       </coordinates>
     </Point>
   </Placemark>
@@ -272,7 +272,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.20333333333333334,50.95027777777778
+        -1.3566666666666667,50.95027777777778
       </coordinates>
     </Point>
   </Placemark>
@@ -281,7 +281,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.02,51.14805555555556
+        -0.19027777777777777,51.14805555555556
       </coordinates>
     </Point>
   </Placemark>
@@ -290,7 +290,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.05388888888888889,51.4775
+        -0.4613888888888889,51.4775
       </coordinates>
     </Point>
   </Placemark>
@@ -299,7 +299,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.07027777777777777,51.57027777777778
+        0.6933333333333334,51.57027777777778
       </coordinates>
     </Point>
   </Placemark>
@@ -308,7 +308,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.2425,53.86611111111111
+        -1.6608333333333332,53.86611111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -317,7 +317,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.23666666666666666,55.03805555555555
+        -1.6897222222222223,55.03805555555555
       </coordinates>
     </Point>
   </Placemark>
@@ -326,7 +326,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.20944444444444443,52.83111111111111
+        -1.3277777777777777,52.83111111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -335,7 +335,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.5394444444444444,55.95
+        -3.3725,55.95
       </coordinates>
     </Point>
   </Placemark>
@@ -344,7 +344,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.7316666666666667,55.50944444444445
+        -4.594444444444444,55.50944444444445
       </coordinates>
     </Point>
   </Placemark>
@@ -353,7 +353,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.027777777777777776,51.885
+        0.23500000000000001,51.885
       </coordinates>
     </Point>
   </Placemark>
@@ -362,7 +362,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.748611111111111,52.308055555555555
+        4.764166666666667,52.308055555555555
       </coordinates>
     </Point>
   </Placemark>
@@ -371,7 +371,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.8727777777777778,51.45
+        5.374444444444444,51.45
       </coordinates>
     </Point>
   </Placemark>
@@ -380,7 +380,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.7169444444444444,51.956944444444446
+        4.437222222222222,51.956944444444446
       </coordinates>
     </Point>
   </Placemark>
@@ -389,7 +389,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.033611111111111,53.421388888888885
+        -6.27,53.421388888888885
       </coordinates>
     </Point>
   </Placemark>
@@ -398,7 +398,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.525,55.74027777777778
+        9.151666666666667,55.74027777777778
       </coordinates>
     </Point>
   </Placemark>
@@ -407,7 +407,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.4088888888888889,55.61805555555556
+        12.65611111111111,55.61805555555556
       </coordinates>
     </Point>
   </Placemark>
@@ -416,7 +416,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.0225,49.623333333333335
+        6.204444444444444,49.623333333333335
       </coordinates>
     </Point>
   </Placemark>
@@ -425,7 +425,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.8583333333333333,60.29361111111111
+        5.218055555555556,60.29361111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -434,7 +434,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.1805555555555556,60.20277777777778
+        11.08388888888889,60.20277777777778
       </coordinates>
     </Point>
   </Placemark>
@@ -443,7 +443,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.586111111111111,50.07777777777778
+        19.784722222222225,50.07777777777778
       </coordinates>
     </Point>
   </Placemark>
@@ -452,7 +452,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.5122222222222224,50.47416666666667
+        19.08,50.47416666666667
       </coordinates>
     </Point>
   </Placemark>
@@ -461,7 +461,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.1055555555555556,52.16583333333333
+        20.96722222222222,52.16583333333333
       </coordinates>
     </Point>
   </Placemark>
@@ -470,7 +470,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.37,57.66
+        12.29111111111111,57.66
       </coordinates>
     </Point>
   </Placemark>
@@ -479,7 +479,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.094722222222222,58.78861111111111
+        16.90361111111111,58.78861111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -488,7 +488,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.263888888888889,59.651944444444446
+        17.91861111111111,59.651944444444446
       </coordinates>
     </Point>
   </Placemark>
@@ -497,7 +497,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.3677777777777778,53.91916666666666
+        12.278333333333334,53.91916666666666
       </coordinates>
     </Point>
   </Placemark>
@@ -506,7 +506,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.6058333333333334,56.92361111111111
+        23.97111111111111,56.92361111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -515,7 +515,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.8697222222222223,54.636944444444445
+        25.28777777777778,54.636944444444445
       </coordinates>
     </Point>
   </Placemark>
@@ -524,7 +524,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.5875000000000001,28.452777777777776
+        -13.863888888888889,28.452777777777776
       </coordinates>
     </Point>
   </Placemark>
@@ -533,7 +533,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.8752777777777778,27.931944444444447
+        -15.386666666666667,27.931944444444447
       </coordinates>
     </Point>
   </Placemark>
@@ -542,7 +542,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.5669444444444445,28.945555555555554
+        -13.605277777777777,28.945555555555554
       </coordinates>
     </Point>
   </Placemark>
@@ -551,7 +551,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -2.0341666666666667,28.482777777777777
+        -16.341666666666665,28.482777777777777
       </coordinates>
     </Point>
   </Placemark>
@@ -560,7 +560,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.7733333333333333,33.92722222222222
+        -4.977777777777778,33.92722222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -569,7 +569,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.2291666666666665,33.36416666666667
+        -7.581666666666666,33.36416666666667
       </coordinates>
     </Point>
   </Placemark>
@@ -578,7 +578,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.3394444444444444,31.608611111111113
+        -8.040833333333333,31.608611111111113
       </coordinates>
     </Point>
   </Placemark>
@@ -587,7 +587,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.9308333333333333,35.73166666666667
+        -5.921111111111111,35.73166666666667
       </coordinates>
     </Point>
   </Placemark>
@@ -596,7 +596,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        3.2125000000000004,30.11138888888889
+        31.413888888888888,30.11138888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -605,7 +605,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        4.5225,-6.875555555555556
+        39.20333333333333,-6.875555555555556
       </coordinates>
     </Point>
   </Placemark>
@@ -614,7 +614,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -8.716666666666667,33.63333333333333
+        -84.43333333333334,33.63333333333333
       </coordinates>
     </Point>
   </Placemark>
@@ -623,7 +623,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -8.102777777777778,35.21666666666667
+        -80.95,35.21666666666667
       </coordinates>
     </Point>
   </Placemark>
@@ -632,7 +632,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -7.683333333333334,40.696666666666665
+        -74.16833333333334,40.696666666666665
       </coordinates>
     </Point>
   </Placemark>
@@ -641,7 +641,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -8.219999999999999,38.94499999999999
+        -77.45666666666666,38.94499999999999
       </coordinates>
     </Point>
   </Placemark>
@@ -650,7 +650,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -7.584444444444444,40.640277777777776
+        -73.77833333333334,40.640277777777776
       </coordinates>
     </Point>
   </Placemark>
@@ -659,7 +659,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -8.036111111111111,25.8
+        -80.28333333333333,25.8
       </coordinates>
     </Point>
   </Placemark>
@@ -668,7 +668,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -7.862222222222222,39.87
+        -75.245,39.87
       </coordinates>
     </Point>
   </Placemark>
@@ -677,7 +677,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -9.255555555555556,42.42166666666667
+        -87.86833333333333,42.42166666666667
       </coordinates>
     </Point>
   </Placemark>
@@ -686,7 +686,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.5452777777777778,42.69499999999999
+        23.40833333333333,42.69499999999999
       </coordinates>
     </Point>
   </Placemark>
@@ -695,7 +695,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        3.5705555555555555,34.87888888888889
+        33.63027777777778,34.87888888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -704,7 +704,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.3666666666666667,42.561388888888885
+        18.26833333333333,42.561388888888885
       </coordinates>
     </Point>
   </Placemark>
@@ -713,7 +713,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.0375,43.538888888888884
+        16.298055555555557,43.538888888888884
       </coordinates>
     </Point>
   </Placemark>
@@ -722,7 +722,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.011111111111111,45.74305555555556
+        16.06888888888889,45.74305555555556
       </coordinates>
     </Point>
   </Placemark>
@@ -731,7 +731,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.05888888888888889,38.282222222222224
+        -0.5580555555555556,38.282222222222224
       </coordinates>
     </Point>
   </Placemark>
@@ -740,7 +740,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.3725,36.84388888888889
+        -2.37,36.84388888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -749,7 +749,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.0055555555555555,43.56361111111111
+        -6.034722222222222,43.56361111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -758,7 +758,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.4286111111111111,43.301111111111105
+        -2.9105555555555553,43.301111111111105
       </coordinates>
     </Point>
   </Placemark>
@@ -767,7 +767,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.34555555555555556,41.29694444444444
+        2.0783333333333336,41.29694444444444
       </coordinates>
     </Point>
   </Placemark>
@@ -776,7 +776,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.0919444444444444,38.89138888888889
+        -6.8213888888888885,38.89138888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -785,7 +785,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.3730555555555557,43.301944444444445
+        -8.377222222222223,43.301944444444445
       </coordinates>
     </Point>
   </Placemark>
@@ -794,7 +794,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.41472222222222227,41.90083333333333
+        2.7605555555555554,41.90083333333333
       </coordinates>
     </Point>
   </Placemark>
@@ -803,7 +803,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.5841666666666666,37.18861111111111
+        -3.777222222222222,37.18861111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -812,7 +812,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.20611111111111113,38.87277777777778
+        1.3730555555555557,38.87277777777778
       </coordinates>
     </Point>
   </Placemark>
@@ -821,7 +821,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.0091666666666668,36.74472222222222
+        -6.06,36.74472222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -830,7 +830,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.9088888888888889,42.58861111111111
+        -5.6561111111111115,42.58861111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -839,7 +839,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.5591666666666667,40.47222222222222
+        -3.560833333333333,40.47222222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -848,7 +848,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.7263888888888889,36.675
+        -4.4991666666666665,36.675
       </coordinates>
     </Point>
   </Placemark>
@@ -857,7 +857,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.6916666666666667,39.862500000000004
+        4.2186111111111115,39.862500000000004
       </coordinates>
     </Point>
   </Placemark>
@@ -866,7 +866,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.4116666666666667,39.55166666666666
+        2.738888888888889,39.55166666666666
       </coordinates>
     </Point>
   </Placemark>
@@ -875,7 +875,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.25333333333333335,43.35638888888889
+        -1.7905555555555555,43.35638888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -884,7 +884,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.3791666666666667,42.896388888888886
+        -8.415277777777778,42.896388888888886
       </coordinates>
     </Point>
   </Placemark>
@@ -893,7 +893,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.05694444444444444,39.489444444444445
+        -0.4816666666666667,39.489444444444445
       </coordinates>
     </Point>
   </Placemark>
@@ -902,7 +902,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.7527777777777778,41.70611111111111
+        -4.851944444444444,41.70611111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -911,7 +911,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.4036111111111111,42.22916666666667
+        -8.627500000000001,42.22916666666667
       </coordinates>
     </Point>
   </Placemark>
@@ -920,7 +920,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.5919444444444444,43.426944444444445
+        -3.82,43.426944444444445
       </coordinates>
     </Point>
   </Placemark>
@@ -929,7 +929,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.9263888888888888,37.418055555555554
+        -5.898888888888888,37.418055555555554
       </coordinates>
     </Point>
   </Placemark>
@@ -938,7 +938,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.07361111111111111,44.828611111111115
+        -0.7152777777777777,44.828611111111115
       </coordinates>
     </Point>
   </Placemark>
@@ -947,7 +947,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.0002777777777777778,43.18555555555555
+        -0.002777777777777778,43.18555555555555
       </coordinates>
     </Point>
   </Placemark>
@@ -956,7 +956,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.37,43.555
+        2.2905555555555552,43.555
       </coordinates>
     </Point>
   </Placemark>
@@ -965,7 +965,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.8458333333333333,45.72555555555556
+        5.0811111111111105,45.72555555555556
       </coordinates>
     </Point>
   </Placemark>
@@ -974,7 +974,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.1030555555555555,43.546388888888885
+        6.954166666666667,43.546388888888885
       </coordinates>
     </Point>
   </Placemark>
@@ -983,7 +983,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.8569444444444444,43.43666666666666
+        5.215,43.43666666666666
       </coordinates>
     </Point>
   </Placemark>
@@ -992,7 +992,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.1902777777777778,43.665277777777774
+        7.215,43.665277777777774
       </coordinates>
     </Point>
   </Placemark>
@@ -1001,7 +1001,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.3511111111111111,49.45444444444445
+        2.112777777777778,49.45444444444445
       </coordinates>
     </Point>
   </Placemark>
@@ -1010,7 +1010,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.3902777777777778,49.00972222222222
+        2.5477777777777777,49.00972222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -1019,7 +1019,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.3733333333333333,48.723333333333336
+        2.3794444444444447,48.723333333333336
       </coordinates>
     </Point>
   </Placemark>
@@ -1028,7 +1028,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        0.5141666666666667,50.56333333333333
+        3.0869444444444447,50.56333333333333
       </coordinates>
     </Point>
   </Placemark>
@@ -1037,7 +1037,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.24305555555555555,48.07194444444445
+        -1.7322222222222223,48.07194444444445
       </coordinates>
     </Point>
   </Placemark>
@@ -1046,7 +1046,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -0.2338888888888889,47.15694444444444
+        -1.607777777777778,47.15694444444444
       </coordinates>
     </Point>
   </Placemark>
@@ -1055,7 +1055,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.2205555555555554,47.59
+        7.529166666666667,47.59
       </coordinates>
     </Point>
   </Placemark>
@@ -1064,7 +1064,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.2388888888888887,48.54194444444444
+        7.634444444444444,48.54194444444444
       </coordinates>
     </Point>
   </Placemark>
@@ -1073,7 +1073,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.6011111111111114,37.93666666666666
+        23.944444444444446,37.93666666666666
       </coordinates>
     </Point>
   </Placemark>
@@ -1082,7 +1082,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.8511111111111114,35.33972222222222
+        25.18027777777778,35.33972222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -1091,7 +1091,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.5955555555555554,39.60194444444445
+        19.91222222222222,39.60194444444445
       </coordinates>
     </Point>
   </Placemark>
@@ -1100,7 +1100,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.868055555555556,37.43722222222222
+        25.34722222222222,37.43722222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -1109,7 +1109,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.89,36.399166666666666
+        25.479166666666664,36.399166666666666
       </coordinates>
     </Point>
   </Placemark>
@@ -1118,7 +1118,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.4391666666666665,40.51972222222222
+        22.97083333333333,40.51972222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -1127,7 +1127,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.5316666666666667,47.43944444444444
+        19.261944444444445,47.43944444444444
       </coordinates>
     </Point>
   </Placemark>
@@ -1136,7 +1136,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.0819444444444444,41.13805555555555
+        16.765,41.13805555555555
       </coordinates>
     </Point>
   </Placemark>
@@ -1145,7 +1145,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.5152777777777777,38.18194444444444
+        13.099444444444446,38.18194444444444
       </coordinates>
     </Point>
   </Placemark>
@@ -1154,7 +1154,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.508888888888889,39.24722222222222
+        9.056111111111111,39.24722222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -1163,7 +1163,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.5527777777777778,40.89861111111111
+        9.517777777777779,40.89861111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -1172,7 +1172,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.4088888888888889,45.63
+        8.723055555555556,45.63
       </coordinates>
     </Point>
   </Placemark>
@@ -1181,7 +1181,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.5722222222222222,45.66888888888889
+        9.700277777777776,45.66888888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -1190,7 +1190,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.2402777777777776,45.2025
+        7.649444444444444,45.2025
       </coordinates>
     </Point>
   </Placemark>
@@ -1199,7 +1199,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.5344444444444443,45.44944444444444
+        9.278333333333334,45.44944444444444
       </coordinates>
     </Point>
   </Placemark>
@@ -1208,7 +1208,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.203888888888889,44.530833333333334
+        11.296944444444444,44.530833333333334
       </coordinates>
     </Point>
   </Placemark>
@@ -1217,7 +1217,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.3541666666666667,45.65083333333333
+        12.197777777777778,45.65083333333333
       </coordinates>
     </Point>
   </Placemark>
@@ -1226,7 +1226,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.0919444444444444,45.396388888888886
+        10.887777777777778,45.396388888888886
       </coordinates>
     </Point>
   </Placemark>
@@ -1235,7 +1235,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.3694444444444445,45.50527777777778
+        12.351944444444444,45.50527777777778
       </coordinates>
     </Point>
   </Placemark>
@@ -1244,7 +1244,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.3616666666666668,41.80027777777777
+        12.238888888888889,41.80027777777777
       </coordinates>
     </Point>
   </Placemark>
@@ -1253,7 +1253,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.7033333333333334,40.88444444444444
+        14.290833333333333,40.88444444444444
       </coordinates>
     </Point>
   </Placemark>
@@ -1262,7 +1262,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.0427777777777778,43.68277777777777
+        10.395555555555555,43.68277777777777
       </coordinates>
     </Point>
   </Placemark>
@@ -1271,7 +1271,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.1891666666666667,43.808611111111105
+        11.202777777777778,43.808611111111105
       </coordinates>
     </Point>
   </Placemark>
@@ -1280,7 +1280,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.6980555555555557,50.100833333333334
+        14.26,50.100833333333334
       </coordinates>
     </Point>
   </Placemark>
@@ -1289,7 +1289,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        3.7583333333333333,32.00944444444445
+        34.885555555555555,32.00944444444445
       </coordinates>
     </Point>
   </Placemark>
@@ -1298,7 +1298,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.7230555555555556,35.8575
+        14.477500000000001,35.8575
       </coordinates>
     </Point>
   </Placemark>
@@ -1307,7 +1307,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.0613888888888887,48.11027777777778
+        16.56972222222222,48.11027777777778
       </coordinates>
     </Point>
   </Placemark>
@@ -1316,7 +1316,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.401111111111111,41.23555555555556
+        -8.678055555555554,41.23555555555556
       </coordinates>
     </Point>
   </Placemark>
@@ -1325,7 +1325,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -1.5222222222222221,38.774166666666666
+        -9.134166666666665,38.774166666666666
       </coordinates>
     </Point>
   </Placemark>
@@ -1334,7 +1334,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.5702777777777777,46.78916666666667
+        23.692222222222224,46.78916666666667
       </coordinates>
     </Point>
   </Placemark>
@@ -1343,7 +1343,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        3.013888888888889,44.571111111111115
+        26.084999999999997,44.571111111111115
       </coordinates>
     </Point>
   </Placemark>
@@ -1352,7 +1352,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.0175,46.23833333333334
+        6.109444444444444,46.23833333333334
       </coordinates>
     </Point>
   </Placemark>
@@ -1361,7 +1361,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.2125,47.18138888888889
+        7.416388888888889,47.18138888888889
       </coordinates>
     </Point>
   </Placemark>
@@ -1370,7 +1370,7 @@
     <styleUrl>#SchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        1.3902777777777777,47.45805555555556
+        8.548055555555555,47.45805555555556
       </coordinates>
     </Point>
   </Placemark>
@@ -1379,7 +1379,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        3.423611111111111,40.976111111111116
+        28.81416666666667,40.976111111111116
       </coordinates>
     </Point>
   </Placemark>
@@ -1388,7 +1388,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        3.539722222222222,40.89833333333333
+        29.309166666666666,40.89833333333333
       </coordinates>
     </Point>
   </Placemark>
@@ -1397,7 +1397,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        3.431944444444445,46.92777777777778
+        28.930833333333336,46.92777777777778
       </coordinates>
     </Point>
   </Placemark>
@@ -1406,7 +1406,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.236388888888889,41.961666666666666
+        21.62138888888889,41.961666666666666
       </coordinates>
     </Point>
   </Placemark>
@@ -1415,7 +1415,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.0394444444444444,44.81944444444445
+        20.306944444444444,44.81944444444445
       </coordinates>
     </Point>
   </Placemark>
@@ -1424,7 +1424,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        2.408888888888889,42.40472222222222
+        18.723333333333333,42.40472222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -1433,7 +1433,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        3.8922222222222222,33.81916666666667
+        35.49,33.81916666666667
       </coordinates>
     </Point>
   </Placemark>
@@ -1442,7 +1442,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        5.741666666666667,24.433333333333334
+        54.65,24.433333333333334
       </coordinates>
     </Point>
   </Placemark>
@@ -1451,7 +1451,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        5.870277777777778,25.249166666666667
+        55.36,25.249166666666667
       </coordinates>
     </Point>
   </Placemark>
@@ -1460,7 +1460,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        5.234166666666667,25.274444444444445
+        51.608333333333334,25.274444444444445
       </coordinates>
     </Point>
   </Placemark>
@@ -1469,7 +1469,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -6.388888888888888,-34.82222222222222
+        -58.53583333333333,-34.82222222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -1478,7 +1478,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -5.055833333333333,-23.433333333333334
+        -46.47,-23.433333333333334
       </coordinates>
     </Point>
   </Placemark>
@@ -1487,7 +1487,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        -7.691666666666667,4.7
+        -74.15,4.7
       </coordinates>
     </Point>
   </Placemark>
@@ -1496,7 +1496,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        3.0925000000000002,50.344722222222224
+        30.893333333333334,50.344722222222224
       </coordinates>
     </Point>
   </Placemark>
@@ -1505,7 +1505,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        3.0527777777777776,50.401944444444446
+        30.451944444444443,50.401944444444446
       </coordinates>
     </Point>
   </Placemark>
@@ -1514,7 +1514,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        3.0316666666666667,59.80027777777777
+        30.2625,59.80027777777777
       </coordinates>
     </Point>
   </Placemark>
@@ -1523,7 +1523,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        4.516944444444444,45.03472222222222
+        39.169999999999995,45.03472222222222
       </coordinates>
     </Point>
   </Placemark>
@@ -1532,7 +1532,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        4.261666666666667,55.40861111111111
+        37.906388888888884,55.40861111111111
       </coordinates>
     </Point>
   </Placemark>
@@ -1541,7 +1541,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        4.2122222222222225,55.972500000000004
+        37.41305555555555,55.972500000000004
       </coordinates>
     </Point>
   </Placemark>
@@ -1550,7 +1550,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        5.5344444444444445,55.606944444444444
+        49.280277777777776,55.606944444444444
       </coordinates>
     </Point>
   </Placemark>
@@ -1559,7 +1559,7 @@
     <styleUrl>#NonSchengenStyle</styleUrl>
     <Point>
       <coordinates>
-        10.60888888888889,1.3591666666666669
+        103.98916666666666,1.3591666666666669
       </coordinates>
     </Point>
   </Placemark>

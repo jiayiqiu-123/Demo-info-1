@@ -201,24 +201,3 @@ def MapAirports(airports):
     except:
         print("Map saved, but could not open Google Earth automatically.")
 
-#Version 4
-
-def AssignNightGates(bcn, aircrafts):
-
-    if len(aircrafts) == 0:
-        return -1
-
-    i = 0
-
-    while i < len(aircrafts):
-
-        aircraft = aircrafts[i]
-
-        if aircraft.origin == "":
-            AssignGate(bcn, aircraft)
-
-        i += 1
-
-    return 0
-
-
