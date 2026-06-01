@@ -312,25 +312,66 @@ class AirportApp:
             elif hasattr(os, 'startfile'):
                 del os.startfile
 
-    def _log_gate(self, lines: list, level: str = "info"):
+    def _make_log_panel(self, parent, attr_name: str):
         """
-        Escribe líneas en el panel de log de puertas (parte inferior izquierda).
+        Construye un panel de Operation Log reutilizable.
+        Crea un tk.Text scrollable en `parent` y lo guarda en self.<attr_name>.
+        Llamar así en cada pestaña:
+            self._make_log_panel(left_frame, '_ap_log')   # Airports
+            self._make_log_panel(left_frame, '_fl_log')   # Flights
+        El método _log(attr_name, lines, level) escribe en él.
+        """
+        outer = tk.Frame(parent, bg=C["panel"])
+        outer.pack(fill="both", expand=True, padx=12, pady=(4, 8))
+
+        tk.Label(outer, text="📋  Operation Log",
+                 font=F["small"], bg=C["panel"], fg=C["textdim"]).pack(
+            anchor="w", pady=(0, 3))
+
+        log_frame = tk.Frame(outer, bg=C["card"],
+                             highlightbackground=C["border"], highlightthickness=1)
+        log_frame.pack(fill="both", expand=True)
+
+        log_widget = tk.Text(log_frame,
+                             font=("Consolas", 8),
+                             bg=C["card"], fg=C["text"],
+                             relief="flat", bd=0,
+                             wrap="word",
+                             state="disabled",
+                             cursor="arrow")
+        log_sb = ttk.Scrollbar(log_frame, orient="vertical",
+                               command=log_widget.yview)
+        log_widget.configure(yscrollcommand=log_sb.set)
+        log_sb.pack(side="right", fill="y")
+        log_widget.pack(side="left", fill="both", expand=True, padx=4, pady=4)
+
+        # Guardar el widget como atributo dinámico (ej: self._ap_log)
+        setattr(self, attr_name, log_widget)
+
+    def _log(self, attr_name: str, lines: list, level: str = "info"):
+        """
+        Escribe en cualquier log panel identificado por attr_name.
+        Funciona para '_ap_log', '_fl_log' y '_gate_log'.
         level: "info" | "success" | "warning" | "error"
-        Añade un separador antes de cada bloque nuevo.
         """
-        if not hasattr(self, '_gate_log'):
+        widget = getattr(self, attr_name, None)
+        if widget is None:
             return
         icons = {"info": "ℹ", "success": "✅", "warning": "⚠", "error": "❌"}
         icon  = icons.get(level, "ℹ")
 
-        self._gate_log.configure(state="normal")
-        if self._gate_log.get("1.0", "end").strip():
-            self._gate_log.insert("end", "\n─────────────────────\n")
+        widget.configure(state="normal")
+        if widget.get("1.0", "end").strip():
+            widget.insert("end", "\n─────────────────────\n")
         for i, line in enumerate(lines):
             prefix = f"{icon} " if i == 0 else "   "
-            self._gate_log.insert("end", f"{prefix}{line}\n")
-        self._gate_log.see("end")
-        self._gate_log.configure(state="disabled")
+            widget.insert("end", f"{prefix}{line}\n")
+        widget.see("end")
+        widget.configure(state="disabled")
+
+    def _log_gate(self, lines: list, level: str = "info"):
+        """Atajo de compatibilidad: escribe en el log de Gate Management."""
+        self._log('_gate_log', lines, level)
 
     # ══════════════════════════════════════════════════════════════
     # UTILIDADES DE WIDGETS
@@ -636,7 +677,8 @@ class AirportApp:
         self._make_btn(s4, "📊  Schengen Bar Chart",   self.plot_airports, C["c_plot"]).pack(pady=4,    padx=8, fill="x")
         self._make_btn(s4, "🗺️  Show in Google Earth", self.map_airports,  C["c_map"]).pack(pady=(0,6), padx=8, fill="x")
 
-        # ── Panel derecho (tabla + área de gráfico) ──────────────
+        # ── Operation Log — rellena el espacio restante del panel izquierdo
+        self._make_log_panel(left, '_ap_log')
         _, self.ap_tree, self.ap_count_lbl = self._make_right_panel(
             tab, 'airports', "Loaded Airports",
             ["ICAO", "Latitude", "Longitude", "Schengen"],
@@ -655,53 +697,63 @@ class AirportApp:
         data = LoadAirports(fn)
         self.airports = data if data else []
         self._refresh_airports_tree()
-        n = len(self.airports)
-        self._set_status(f"Loaded {n} airport{'s' if n!=1 else ''} from {os.path.basename(fn)}", "success")
+        n   = len(self.airports)
+        sch = sum(1 for a in self.airports if a.Schengen)
+        msg = f"Loaded {n} airport{'s' if n!=1 else ''} from {os.path.basename(fn)}"
+        self._set_status(msg, "success")
+        self._log('_ap_log', [msg, f"  ✅ {sch} Schengen  |  ❌ {n-sch} non-Schengen"], "success")
 
     def add_airport(self):
         code = self.ap_code_var.get().strip().upper()
         lat_str, lon_str = self.ap_lat_var.get().strip(), self.ap_lon_var.get().strip()
         if not code or len(code) != 4:
-            messagebox.showwarning("Invalid Input", "ICAO code must be exactly 4 characters.")
+            self._log('_ap_log', ["Invalid ICAO code — must be exactly 4 characters."], "warning"); return
             return
         try:
             lat, lon = float(lat_str), float(lon_str)
         except ValueError:
-            messagebox.showwarning("Invalid Input", "Latitude and Longitude must be valid numbers.")
+            self._log('_ap_log', ["Invalid coordinates — Latitude and Longitude must be valid numbers."], "warning"); return
             return
         if not (-90 <= lat <= 90) or not (-180 <= lon <= 180):
-            messagebox.showwarning("Invalid Input", "Latitude: −90 to 90°.\nLongitude: −180 to 180°.")
+            self._log('_ap_log', ["Out of range — Latitude: −90 to 90°  |  Longitude: −180 to 180°."], "warning"); return
             return
         new_ap = Airport(code, lat, lon)
         SetSchengen(new_ap)
         if AddAirport(self.airports, new_ap):
             self._refresh_airports_tree()
             self.ap_code_var.set(""); self.ap_lat_var.set(""); self.ap_lon_var.set("")
+            msg = f"Added {code}  (Lat {lat:.4f}°, Lon {lon:.4f}°)  —  Schengen: {new_ap.Schengen}"
             self._set_status(f"Airport {code} added (Schengen: {new_ap.Schengen})", "success")
+            self._log('_ap_log', [msg], "success")
         else:
-            messagebox.showinfo("Already Exists", f"Airport '{code}' is already in the list.")
+            # log already written below
             self._set_status(f"Airport {code} already in list", "warning")
+            self._log('_ap_log', [f"{code} already in list — not added"], "warning")
 
     def delete_airport(self):
         sel = self.ap_tree.selection()
         if not sel:
-            messagebox.showwarning("Warning", "Please select an airport to delete.")
+            self._log('_ap_log', ["Select an airport in the table first."], "warning")
             return
         code = self.ap_tree.item(sel[0])["values"][0]
         if messagebox.askyesno("Confirm Delete", f"Delete airport '{code}' from the list?"):
             if RemoveAirport(self.airports, code):
                 self._refresh_airports_tree()
                 self._set_status(f"Airport {code} deleted", "success")
+                self._log('_ap_log', [f"Deleted {code} from list"], "warning")
 
     def set_schengen_all(self):
         if not self.airports:
-            messagebox.showwarning("Warning", "No airports loaded.")
-            return
+            self._log('_ap_log', ["No airports loaded — use Load Airports File first."], "warning"); return
         for ap in self.airports: SetSchengen(ap)
         self._refresh_airports_tree()
         count = sum(1 for ap in self.airports if ap.Schengen)
-        self._set_status(
-            f"Schengen updated: {count} Schengen, {len(self.airports)-count} non-Schengen", "success")
+        non   = len(self.airports) - count
+        self._set_status(f"Schengen updated: {count} Schengen, {non} non-Schengen", "success")
+        self._log('_ap_log',
+                  [f"Schengen status updated for {len(self.airports)} airports",
+                   f"  ✅ {count} Schengen  |  ❌ {non} non-Schengen"],
+                  "success")
 
     def _filter_airports_tree(self):
         """
@@ -733,36 +785,39 @@ class AirportApp:
 
     def save_schengen(self):
         if not self.airports:
-            messagebox.showwarning("Warning", "No airports loaded.")
-            return
+            self._log('_ap_log', ["No airports loaded — nothing to save."], "warning"); return
         fn = filedialog.asksaveasfilename(title="Save Schengen Airports",
                                           defaultextension=".txt",
                                           filetypes=[("Text files", "*.txt")])
         if not fn: return
         result = SaveSchengenAirports(self.airports, fn)
         if result == -1:
-            messagebox.showwarning("Warning", "No Schengen airports to save.")
+            # logged below
             self._set_status("Nothing saved — no Schengen airports", "warning")
+            self._log('_ap_log', ["Save failed — no Schengen airports in list"], "warning")
         else:
             count = sum(1 for ap in self.airports if ap.Schengen)
-            self._set_status(f"Saved {count} Schengen airports to {os.path.basename(fn)}", "success")
+            fname = os.path.basename(fn)
+            self._set_status(f"Saved {count} Schengen airports to {fname}", "success")
+            self._log('_ap_log', [f"Saved {count} Schengen airports", f"  → {fname}"], "success")
 
     def plot_airports(self):
         """Muestra el gráfico de barras apiladas Schengen / no-Schengen embebido."""
         if not self.airports:
-            messagebox.showwarning("Warning", "No airports loaded.")
-            return
-        # _capture_plot intercepta plt.show() y nos devuelve la Figure
+            self._log('_ap_log', ["No airports loaded — use Load Airports File first."], "warning"); return
         fig = self._capture_plot(PlotAirports, self.airports)
         self._show_plot(fig, 'airports')
+        sch = sum(1 for a in self.airports if a.Schengen)
         self._set_status("Schengen bar chart displayed", "info")
+        self._log('_ap_log',
+                  [f"Schengen bar chart — {len(self.airports)} airports",
+                   f"  ✅ {sch} Schengen  |  ❌ {len(self.airports)-sch} non-Schengen"],
+                  "info")
 
     def map_airports(self):
         """Mapa embebido + genera KML sin abrir GE automáticamente."""
         if not self.airports:
-            messagebox.showwarning("Warning", "No airports loaded.")
-            return
-        # _call_no_ge evita que MapAirports llame a os.startfile al final
+            self._log('_ap_log', ["No airports loaded — use Load Airports File first."], "warning"); return
         self._call_no_ge(MapAirports, self.airports)
         kml_abs = os.path.abspath("airports_map.kml")
         self._kml_paths['airports'] = kml_abs
@@ -775,6 +830,11 @@ class AirportApp:
             fig = self._capture_plot(self._create_map_matplotlib, airports=self.airports)
             self._show_plot(fig, 'airports')
             self._set_status("Airport map displayed", "info")
+        self._log('_ap_log',
+                  [f"Airport map — {len(self.airports)} airports plotted",
+                   f"  KML saved: airports_map.kml",
+                   f"  Press 🌍 to open in Google Earth"],
+                  "info")
 
     def _refresh_airports_tree(self):
         """Reconstruye la tabla de aeropuertos con los datos actuales (limpia el filtro)."""
@@ -827,7 +887,8 @@ class AirportApp:
         self._make_btn(s3, "🌐  All Trajectories",         self.map_flights,       C["c_map"]).pack(pady=4,    padx=8, fill="x")
         self._make_btn(s3, "✈️  Long Distance (>2000 km)", self.map_long_distance, C["c_map"]).pack(pady=(0,6), padx=8, fill="x")
 
-        # ── Panel derecho — construcción manual con split_view ──────
+        # ── Operation Log — rellena el espacio restante del panel izquierdo
+        self._make_log_panel(left, '_fl_log')
         right = tk.Frame(tab, bg=C["bg"])
         right.pack(side="right", fill="both", expand=True, padx=14, pady=14)
 
@@ -892,9 +953,7 @@ class AirportApp:
 
     def load_arrivals(self):
         if not self.airports:
-            messagebox.showwarning("Warning",
-                                   "Please load airports first.\n"
-                                   "They are needed to get origin coordinates.")
+            self._log('_fl_log', ["Load airports first (Airports tab) — they are needed to get origin coordinates."], "warning")
             return
         fn = filedialog.askopenfilename(title="Select Arrivals File",
                                         filetypes=[("Text files", "*.txt"), ("All", "*.*")])
@@ -902,40 +961,50 @@ class AirportApp:
         data = LoadArrivals(fn, self.airports)
         self.aircrafts = data if data else []
         self._refresh_flights_tree()
-        n = len(self.aircrafts)
-        self._set_status(f"Loaded {n} arrival{'s' if n!=1 else ''} from {os.path.basename(fn)}", "success")
+        n   = len(self.aircrafts)
+        sch = sum(1 for ac in self.aircrafts if ac.origin and ac.origin.Schengen)
+        msg = f"Loaded {n} arrival{'s' if n!=1 else ''} from {os.path.basename(fn)}"
+        self._set_status(msg, "success")
+        self._log('_fl_log',
+                  [msg, f"  ✅ {sch} Schengen  |  ❌ {n-sch} non-Schengen"],
+                  "success")
 
     def save_flights(self):
         if not self.aircrafts:
-            messagebox.showwarning("Warning", "No flights loaded.")
-            return
+            self._log('_fl_log', ["No flights loaded — use Load Arrivals first."], "warning"); return
         fn = filedialog.asksaveasfilename(title="Save Flights",
                                           defaultextension=".txt",
                                           filetypes=[("Text files", "*.txt")])
         if not fn: return
         result = SaveFlights(self.aircrafts, fn)
         if result == -1:
-            messagebox.showerror("Error", "Could not save — list is empty.")
+            self._log('_fl_log', ["Save failed — list is empty."], "error")
         else:
-            self._set_status(f"Saved {len(self.aircrafts)} flights to {os.path.basename(fn)}", "success")
+            fname = os.path.basename(fn)
+            self._set_status(f"Saved {len(self.aircrafts)} flights to {fname}", "success")
+            self._log('_fl_log', [f"Saved {len(self.aircrafts)} flights", f"  → {fname}"], "success")
 
     def plot_arrivals(self):
         """Gráfico de llegadas por hora — se muestra embebido en el panel derecho."""
         if not self.aircrafts:
-            messagebox.showwarning("Warning", "No flights loaded.")
-            return
+            self._log('_fl_log', ["No flights loaded — use Load Arrivals first."], "warning"); return
         fig = self._capture_plot(PlotArrivals, self.aircrafts)
         self._show_plot(fig, 'flights')
         self._set_status("Arrivals-per-hour chart displayed", "info")
+        self._log('_fl_log', [f"Arrivals per hour — {len(self.aircrafts)} flights"], "info")
 
     def plot_flights_type(self):
         """Gráfico apilado Schengen / no-Schengen — embebido."""
         if not self.aircrafts:
-            messagebox.showwarning("Warning", "No flights loaded.")
-            return
+            self._log('_fl_log', ["No flights loaded — use Load Arrivals first."], "warning"); return
         fig = self._capture_plot(PlotFlightsType, self.aircrafts)
         self._show_plot(fig, 'flights')
+        sch = sum(1 for ac in self.aircrafts if ac.origin and ac.origin.Schengen)
         self._set_status("Schengen/Non-Schengen chart displayed", "info")
+        self._log('_fl_log',
+                  [f"Schengen vs Non-Schengen chart",
+                   f"  ✅ {sch} Schengen  |  ❌ {len(self.aircrafts)-sch} non-Schengen"],
+                  "info")
 
     def plot_airlines(self):
         """
@@ -945,11 +1014,10 @@ class AirportApp:
         El filtro se reconstruye con los datos actuales cada vez que se llama.
         """
         if not self.aircrafts:
-            messagebox.showwarning("Warning", "No flights loaded.")
-            return
+            self._log('_fl_log', ["No flights loaded — use Load Arrivals first."], "warning"); return
         airlines = sorted(set(ac.Company for ac in self.aircrafts if ac.Company))
         if not airlines:
-            messagebox.showwarning("Warning", "No airline data available.")
+            self._log('_fl_log', ["No airline data available in the loaded flights."], "warning")
             return
 
         panel = self._panels['flights']
@@ -1102,7 +1170,7 @@ class AirportApp:
             return
         selected = {a for a, v in self._fl_filter_vars.items() if v.get()}
         if not selected:
-            messagebox.showwarning("Warning", "No airlines selected.")
+            self._log('_fl_log', ["No airlines selected — check at least one airline."], "warning")
             return
 
         panel    = self._panels['flights']
@@ -1133,12 +1201,15 @@ class AirportApp:
 
         self._set_status(
             f"Airline chart: {len(selected)} airlines, {len(filtered)} flights", "info")
+        self._log('_fl_log',
+                  [f"Airline chart — {len(selected)} of {len(self._fl_filter_vars)} airlines selected",
+                   f"  {len(filtered)} flights in chart"],
+                  "info")
 
     def map_flights(self):
         """Mapa embebido con todas las trayectorias + genera KML sin abrir GE."""
         if not self.aircrafts:
-            messagebox.showwarning("Warning", "No flights loaded.")
-            return
+            self._log('_fl_log', ["No flights loaded — use Load Arrivals first."], "warning"); return
         self._call_no_ge(MapFlights, self.aircrafts)
         self._kml_paths['flights'] = os.path.abspath("flights_map.kml")
 
@@ -1150,15 +1221,19 @@ class AirportApp:
             fig = self._capture_plot(self._create_map_matplotlib, airports=self.airports, flights=self.aircrafts)
             self._show_plot(fig, 'flights')
             self._set_status("Flights map displayed", "info")
+        self._log('_fl_log',
+                  [f"All trajectories — {len(self.aircrafts)} flights",
+                   "  KML saved: flights_map.kml",
+                   "  Press 🌍 to open in Google Earth"],
+                  "info")
 
     def map_long_distance(self):
         """Mapa embebido con vuelos >2000 km + genera KML sin abrir GE."""
         if not self.aircrafts:
-            messagebox.showwarning("Warning", "No flights loaded.")
-            return
+            self._log('_fl_log', ["No flights loaded — use Load Arrivals first."], "warning"); return
         long_fl = LongDistanceArrivals(self.aircrafts)
         if not long_fl:
-            messagebox.showinfo("Info", "No long-distance flights found (> 2000 km).")
+            self._log('_fl_log', ["No long-distance flights found (> 2000 km)."], "warning")
             self._set_status("No long-distance flights found", "warning")
             return
         self._call_no_ge(MapFlights, long_fl)
@@ -1172,6 +1247,11 @@ class AirportApp:
             fig = self._capture_plot(self._create_map_matplotlib, airports=self.airports, flights=long_fl)
             self._show_plot(fig, 'flights')
             self._set_status(f"Long-distance map: {len(long_fl)} flights", "info")
+        self._log('_fl_log',
+                  [f"Long distance map — {len(long_fl)} flights (> 2000 km)",
+                   "  KML saved: long_distance_flights.kml",
+                   "  Press 🌍 to open in Google Earth"],
+                  "info")
 
     # ══════════════════════════════════════════════════════════════
     # SISTEMA DE MAPAS EMBEBIDOS
@@ -1420,31 +1500,8 @@ class AirportApp:
         self._make_btn(s4, "🌙  Assign Night Aircraft",     self.assign_night_gates, C["c_main"]).pack(pady=4,    padx=8, fill="x")
         self._make_btn(s4, "📊  Plot Full Day Occupancy",   self.plot_day_occupancy, C["c_plot"]).pack(pady=(0,6), padx=8, fill="x")
 
-        # ── Panel de información / log (parte inferior izquierda) ─
-        # Sustituye los popups de merge, night y hour
-        info_log_outer = tk.Frame(left, bg=C["panel"])
-        info_log_outer.pack(fill="both", expand=True, padx=12, pady=(4, 8))
-
-        tk.Label(info_log_outer, text="📋  Operation Log",
-                 font=F["small"], bg=C["panel"], fg=C["textdim"]).pack(
-            anchor="w", pady=(0, 3))
-
-        log_frame = tk.Frame(info_log_outer, bg=C["card"],
-                             highlightbackground=C["border"], highlightthickness=1)
-        log_frame.pack(fill="both", expand=True)
-
-        self._gate_log = tk.Text(log_frame,
-                                  font=("Consolas", 8),
-                                  bg=C["card"], fg=C["text"],
-                                  relief="flat", bd=0,
-                                  wrap="word",
-                                  state="disabled",
-                                  cursor="arrow")
-        log_sb = ttk.Scrollbar(log_frame, orient="vertical",
-                               command=self._gate_log.yview)
-        self._gate_log.configure(yscrollcommand=log_sb.set)
-        log_sb.pack(side="right", fill="y")
-        self._gate_log.pack(side="left", fill="both", expand=True, padx=4, pady=4)
+        # ── Operation Log — rellena el espacio restante del panel izquierdo
+        self._make_log_panel(left, '_gate_log')
 
         # ── Panel derecho — construcción manual ──────────────────
         # (no usamos _make_right_panel porque necesitamos la info_bar extra)
@@ -1544,7 +1601,7 @@ class AirportApp:
         if not fn: return
         result = LoadAirportStructure(fn)
         if result == -1:
-            messagebox.showerror("Error", "Could not load the airport structure file.")
+            self._log('_gate_log', ["Error: could not load the airport structure file."], "error")
             self._set_status("Error loading airport structure", "error")
             return
         self.bcn                = result

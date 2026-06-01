@@ -8,6 +8,78 @@
     <LineStyle><color>ff0000ff</color><width>2</width></LineStyle>
   </Style>
   <Placemark>
+    <name>ECMKV - LYBE</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        20.306944444444444,44.81944444444445
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJGM - EGCC</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.275,53.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLOB - LMML</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        14.477500000000001,35.8575
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLVC - LGTS</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        22.97083333333333,40.51972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DALEC - EBBR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.484444444444445,50.90138888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>N327UP - EDDK</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.142777777777778,50.865833333333335
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>ECMKN - LGSR</name>
     <styleUrl>#SchengenLine</styleUrl>
     <LineString>
@@ -15,6 +87,78 @@
       <tessellate>1</tessellate>
       <coordinates>
         25.479166666666664,36.399166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DALEN - EDDP</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.236388888888888,51.42388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMKT - LGAV</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        23.944444444444446,37.93666666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>N920FD - LFPG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.5477777777777777,49.00972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>OEIBZ - EBLG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        5.442777777777778,50.63638888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDPG - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLTG - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -32,6 +176,78 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>EIFJP - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECKRH - LROP</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        26.084999999999997,44.571111111111115
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLVV - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLYB - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLXV - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>PHXRD - EHAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.764166666666667,52.308055555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>ECMAI - BIKF</name>
     <styleUrl>#SchengenLine</styleUrl>
     <LineString>
@@ -44,6 +260,66 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>GRAJG - EBOS</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.8622222222222224,51.19888888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZWE - LIMC</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.723055555555556,45.63
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFOG - LEZL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -5.898888888888888,37.418055555555554
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAIQE - EDDS</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.221944444444444,48.69
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>OOJEM - EBAW</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.460277777777778,51.18944444444444
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>ECLZZ - URKK</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -51,6 +327,78 @@
       <tessellate>1</tessellate>
       <coordinates>
         39.169999999999995,45.03472222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HALXH - LHBP</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        19.261944444444445,47.43944444444444
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZAT - LFLL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        5.0811111111111105,45.72555555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMBS - LEZL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -5.898888888888888,37.418055555555554
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJYX - LECO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.377222222222223,43.301944444444445
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAEBP - EDDM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.786111111111111,48.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>OOSSW - EBBR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.484444444444445,50.90138888888889
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -80,6 +428,18 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>DABZA - EDDL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.7572222222222225,51.280833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>N823NW - KATL</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -87,6 +447,66 @@
       <tessellate>1</tessellate>
       <coordinates>
         -84.43333333333334,33.63333333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMAH - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIENM - EDDB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        13.500555555555556,52.36222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMBT - LEAS</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -6.034722222222222,43.56361111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJQZ - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HBIOK - LSZH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.548055555555555,47.45805555555556
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -116,6 +536,54 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECMLM - LFPO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.3794444444444447,48.723333333333336
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAGWT - EDDV</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.68361111111111,52.46027777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJQQ - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>PHHSK - EHEH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        5.374444444444444,51.45
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>ECMGE - UUDD</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -123,6 +591,30 @@
       <tessellate>1</tessellate>
       <coordinates>
         37.906388888888884,55.40861111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAIPZ - EDDL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.7572222222222225,51.280833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEUUC - EGLL</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.4613888888888889,51.4775
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -140,6 +632,42 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>EIEKL - LPPR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.678055555555554,41.23555555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLUL - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>OELBR - LOWW</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        16.56972222222222,48.11027777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>N76054 - KEWR</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -147,6 +675,30 @@
       <tessellate>1</tessellate>
       <coordinates>
         -74.16833333333334,40.696666666666665
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFIY - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMFM - LEZL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -5.898888888888888,37.418055555555554
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -164,6 +716,126 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>FGTAZ - LFPG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.5477777777777777,49.00972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>OYKBP - EKCH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.65611111111111,55.61805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMHA - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAGWI - EDDK</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.142777777777778,50.865833333333335
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLLJ - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMKV - LESO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.7905555555555555,43.35638888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAIDL - EDDF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.570555555555556,50.03333333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJTR - EHAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.764166666666667,52.308055555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFRF - EIDW</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -6.27,53.421388888888885
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GZBAI - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>TCJNZ - LTBA</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -171,6 +843,150 @@
       <tessellate>1</tessellate>
       <coordinates>
         28.81416666666667,40.976111111111116
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZDU - EDDB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        13.500555555555556,52.36222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>B5913 - LOWW</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        16.56972222222222,48.11027777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>OELED - LOWW</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        16.56972222222222,48.11027777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GZBAH - EGBB</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.7480555555555557,52.45388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMHS - LPPT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -9.134166666666665,38.774166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLML - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDAM - LIME</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.700277777777776,45.66888888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZTG - EGGD</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.7191666666666667,51.382777777777775
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CSTTO - LPPT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -9.134166666666665,38.774166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZUM - LSGG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.109444444444444,46.23833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDEJ - EIDW</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -6.27,53.421388888888885
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMLE - LFRS</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.607777777777778,47.15694444444444
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -188,6 +1004,90 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECLZF - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CSDXZ - LFST</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.634444444444444,48.54194444444444
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZPC - EGGP</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.8497222222222223,53.33361111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>PHBXF - EHAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.764166666666667,52.308055555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIEBK - EGCC</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.275,53.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLVC - LEGR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.777222222222222,37.18861111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDPM - EGPH</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.3725,55.95
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>ECMBK - UWKD</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -195,6 +1095,126 @@
       <tessellate>1</tessellate>
       <coordinates>
         49.280277777777776,55.606944444444444
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLUN - DAAG</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        3.2144444444444447,36.693888888888885
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZBD - EGAA</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -6.215833333333333,54.6575
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLRY - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIEFW - LEST</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.415277777777778,42.896388888888886
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDHP - EGBB</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.7480555555555557,52.45388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLOB - LFMN</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.215,43.665277777777774
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDWK - EBBR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.484444444444445,50.90138888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>YRBGI - LROP</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        26.084999999999997,44.571111111111115
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIENO - LFOB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.112777777777778,49.45444444444445
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>YRBAP - LROP</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        26.084999999999997,44.571111111111115
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -212,6 +1232,18 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>GEUUO - EGLL</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.4613888888888889,51.4775
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>N790AN - KMIA</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -219,6 +1251,30 @@
       <tessellate>1</tessellate>
       <coordinates>
         -80.28333333333333,25.8
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZWN - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>SXDGQ - LGAV</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        23.944444444444446,37.93666666666666
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -248,6 +1304,78 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECHUH - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>IBIXR - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECKMI - LEZL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -5.898888888888888,37.418055555555554
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GOZBE - EGCC</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.275,53.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>SPLND - EPWA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        20.96722222222222,52.16583333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDAE - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>N290AY - KPHL</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -272,6 +1400,18 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECKLT - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>ECMMH - GCXO</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -279,6 +1419,30 @@
       <tessellate>1</tessellate>
       <coordinates>
         -16.341666666666665,28.482777777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMHB - LFPO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.3794444444444447,48.723333333333336
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLXV - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -296,6 +1460,66 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECMBY - LDZA</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        16.06888888888889,45.74305555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAIDF - EDDM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.786111111111111,48.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDCJ - EGSS</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        0.23500000000000001,51.885
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMKN - LSGG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.109444444444444,46.23833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJTQ - LEVX</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.627500000000001,42.22916666666667
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>LNNGP - ENGM</name>
     <styleUrl>#SchengenLine</styleUrl>
     <LineString>
@@ -303,6 +1527,90 @@
       <tessellate>1</tessellate>
       <coordinates>
         11.08388888888889,60.20277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMIQ - LIRQ</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.202777777777778,43.808611111111105
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZBI - EGGW</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.3683333333333333,51.874722222222225
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMGZ - LIPZ</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.351944444444444,45.50527777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLQM - EBBR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.484444444444445,50.90138888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GCELG - EGCC</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.275,53.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZTA - LFSB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.529166666666667,47.59
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAISG - EDDF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.570555555555556,50.03333333333333
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -320,6 +1628,42 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>LNDYW - EKCH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.65611111111111,55.61805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZAT - LFBD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.7152777777777777,44.828611111111115
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDHX - LIPE</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.296944444444444,44.530833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>CFIYE - CYYZ</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -327,6 +1671,42 @@
       <tessellate>1</tessellate>
       <coordinates>
         -79.63055555555555,43.67722222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMJC - LDSP</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        16.298055555555557,43.538888888888884
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECKRH - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HBJYI - LSGG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.109444444444444,46.23833333333334
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -344,6 +1724,114 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECMBE - LSZH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.548055555555555,47.45805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CNRGG - GMMN</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -7.581666666666666,33.36416666666667
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMJR - EGGW</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.3683333333333333,51.874722222222225
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>TSIMV - DTTA</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        10.226944444444445,36.85111111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLQL - EDDM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.786111111111111,48.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>FF333 - LFCK</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.2905555555555552,43.555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GGDFK - EGNM</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.6608333333333332,53.86611111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLRG - EDDP</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.236388888888888,51.42388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMBT - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>N803NW - KJFK</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -351,6 +1839,18 @@
       <tessellate>1</tessellate>
       <coordinates>
         -73.77833333333334,40.640277777777776
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEUYC - EGLL</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.4613888888888889,51.4775
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -368,6 +1868,114 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECMGF - EDDF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.570555555555556,50.03333333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMLD - EHAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.764166666666667,52.308055555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIIMU - LIML</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.278333333333334,45.44944444444444
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHUI - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLRN - LFPG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.5477777777777777,49.00972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZWZ - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CSTTV - LPPT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -9.134166666666665,38.774166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>PHBXP - EHAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.764166666666667,52.308055555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJGM - LEBB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.9105555555555553,43.301111111111105
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>CFDAT - CYUL</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -375,6 +1983,42 @@
       <tessellate>1</tessellate>
       <coordinates>
         -73.74138888888889,45.46805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDHG - EDDH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.988333333333333,53.63027777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFJP - LEBB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.9105555555555553,43.301111111111105
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHQI - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -392,6 +2036,18 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECLZO - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>N76062 - KIAD</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -399,6 +2055,18 @@
       <tessellate>1</tessellate>
       <coordinates>
         -77.45666666666666,38.94499999999999
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>FA123 - LEBB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.9105555555555553,43.301111111111105
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -428,6 +2096,54 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>EIEBA - EGNX</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.3277777777777777,52.83111111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLZE - LFQQ</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        3.0869444444444447,50.56333333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAISW - EDDF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.570555555555556,50.03333333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>PHXRX - EHEH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        5.374444444444444,51.45
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>TCJVM - LTFJ</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -435,6 +2151,18 @@
       <tessellate>1</tessellate>
       <coordinates>
         29.309166666666666,40.89833333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLVP - LKPR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        14.26,50.100833333333334
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -452,6 +2180,42 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECLRM - EGBB</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.7480555555555557,52.45388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLML - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMEQ - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>A7AEC - OTHH</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -459,6 +2223,18 @@
       <tessellate>1</tessellate>
       <coordinates>
         51.608333333333334,25.274444444444445
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>LNDYB - ESGG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.29111111111111,57.66
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -476,6 +2252,78 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>DAKNQ - EDDT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        13.287777777777778,52.55972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAGWE - EDDH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.988333333333333,53.63027777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DCARO - LEVC</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.4816666666666667,39.489444444444445
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>OKNEN - LKPR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        14.26,50.100833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>LXLQB - ELLX</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.204444444444444,49.623333333333335
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIENL - GMMX</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.040833333333333,31.608611111111113
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>TCJHZ - LTBA</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -483,6 +2331,42 @@
       <tessellate>1</tessellate>
       <coordinates>
         28.81416666666667,40.976111111111116
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFRH - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZUM - LFMN</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.215,43.665277777777774
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CSTTK - LPPT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -9.134166666666665,38.774166666666666
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -512,6 +2396,42 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECLZF - LEAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.37,36.84388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECIXD - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMHA - LIMC</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.723055555555556,45.63
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>SUGCE - HECA</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -519,6 +2439,210 @@
       <tessellate>1</tessellate>
       <coordinates>
         31.413888888888888,30.11138888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>SXABE - LFRN</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.7322222222222223,48.07194444444445
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HBIOM - LSZH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.548055555555555,47.45805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEUUY - EGLL</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.4613888888888889,51.4775
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMEA - GMFF</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -4.977777777777778,33.92722222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLTG - ETNL</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.278333333333334,53.91916666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAIRA - EDDM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.786111111111111,48.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJYX - EHAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.764166666666667,52.308055555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLUN - LIMF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.649444444444444,45.2025
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZPL - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFJN - EDDB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        13.500555555555556,52.36222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>PHXRD - EHAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.764166666666667,52.308055555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLXV - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLOB - LEMG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -4.4991666666666665,36.675
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMGE - LEBB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.9105555555555553,43.301111111111105
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>OOSSW - EBBR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.484444444444445,50.90138888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEUYB - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAISE - EDDF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.570555555555556,50.03333333333333
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -536,6 +2660,126 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>A6AIN - EGLL</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.4613888888888889,51.4775
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFIY - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHUH - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHOB - LYTV</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        18.723333333333333,42.40472222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDAE - LIMF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.649444444444444,45.2025
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLRY - LFPO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.3794444444444447,48.723333333333336
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIENO - LEMG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -4.4991666666666665,36.675
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDWK - LIPH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.197777777777778,45.65083333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJTR - LFSB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.529166666666667,47.59
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMGF - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>EIFJL - ENBR</name>
     <styleUrl>#SchengenLine</styleUrl>
     <LineString>
@@ -543,6 +2787,54 @@
       <tessellate>1</tessellate>
       <coordinates>
         5.218055555555556,60.29361111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLST - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EK111 - LSZG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.416388888888889,47.18138888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMGY - EPWA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        20.96722222222222,52.16583333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDAM - EGSS</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        0.23500000000000001,51.885
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -560,6 +2852,42 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>DAISR - EDDF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.570555555555556,50.03333333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CSTTN - LPPT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -9.134166666666665,38.774166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDCJ - LIME</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.700277777777776,45.66888888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>OYRUP - GCXO</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -572,6 +2900,30 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECIVJ - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIEFW - EBBR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.484444444444445,50.90138888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>LVCSX - SAEZ</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -579,6 +2931,42 @@
       <tessellate>1</tessellate>
       <coordinates>
         -58.53583333333333,-34.82222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>PHBXG - EHAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.764166666666667,52.308055555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>LYVEO - LEST</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.415277777777778,42.896388888888886
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMJZ - LEBZ</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -6.8213888888888885,38.89138888888889
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -608,6 +2996,126 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>HBJYL - LSGG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.109444444444444,46.23833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJPF - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFJP - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HBJXE - LFSB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.529166666666667,47.59
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CNNMH - GMMN</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -7.581666666666666,33.36416666666667
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLML - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJNI - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMKV - ELLX</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.204444444444444,49.623333333333335
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJGM - LEBB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.9105555555555553,43.301111111111105
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMBK - LEJR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -6.06,36.74472222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>EIFJK - EFHK</name>
     <styleUrl>#SchengenLine</styleUrl>
     <LineString>
@@ -615,6 +3123,42 @@
       <tessellate>1</tessellate>
       <coordinates>
         24.96333333333333,60.31722222222223
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMBF - EDDN</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.078055555555554,49.49861111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMLE - EHEH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        5.374444444444444,51.45
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMHB - EDDS</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.221944444444444,48.69
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -644,6 +3188,30 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECLZN - EGNT</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.6897222222222223,55.03805555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>IBIXS - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>VPBAS - UUDD</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -651,6 +3219,18 @@
       <tessellate>1</tessellate>
       <coordinates>
         37.906388888888884,55.40861111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMBS - LEZL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -5.898888888888888,37.418055555555554
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -680,6 +3260,630 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECJTQ - LFPG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.5477777777777777,49.00972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLQK - LEGR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.777222222222222,37.18861111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMKX - LFPO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.3794444444444447,48.723333333333336
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLVO - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>N483CM - LDDU</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        18.26833333333333,42.561388888888885
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>FHEPB - LFPG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.5477777777777777,49.00972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMBY - EGGP</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.8497222222222223,53.33361111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMKM - LEAL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.5580555555555556,38.282222222222224
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DIERF - EDDN</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.078055555555554,49.49861111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAIRD - EDDM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.786111111111111,48.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJFN - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HBIOH - LSZH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.548055555555555,47.45805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECKCU - EBBR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.484444444444445,50.90138888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDHT - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLZF - LEBB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.9105555555555553,43.301111111111105
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GTTOE - EGLL</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.4613888888888889,51.4775
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLAA - EDDH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.988333333333333,53.63027777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIEPG - EGGP</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.8497222222222223,53.33361111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMKN - EDDV</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.68361111111111,52.46027777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHHA - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLXV - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CNRGG - GMMN</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -7.581666666666666,33.36416666666667
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAIDQ - EDDF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.570555555555556,50.03333333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZWZ - LFPG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.5477777777777777,49.00972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMGZ - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>SXABE - LFBD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.7152777777777777,44.828611111111115
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMEQ - LPPT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -9.134166666666665,38.774166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZTA - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLZE - LIPZ</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.351944444444444,45.50527777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLRN - LICJ</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        13.099444444444446,38.18194444444444
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHQI - LIBD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        16.765,41.13805555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHQJ - LOWW</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        16.56972222222222,48.11027777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMAI - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMLD - EDDM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.786111111111111,48.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>FGUGO - LFPG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.5477777777777777,49.00972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMJR - LIRN</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        14.290833333333333,40.88444444444444
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLUN - LFML</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        5.215,43.43666666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECKRN - GMMX</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.040833333333333,31.608611111111113
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDHG - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZUM - LSGG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.109444444444444,46.23833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLVP - LSGG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.109444444444444,46.23833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECIXD - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLZZ - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>PHBXE - EHAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.764166666666667,52.308055555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLRM - EGFF</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.3433333333333333,51.39666666666667
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMGY - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJYX - LEXJ</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.82,43.426944444444445
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFIY - LEVD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -4.851944444444444,41.70611111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAICG - EDDS</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.221944444444444,48.69
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CSTPA - LPPT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -9.134166666666665,38.774166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDWK - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GOZBW - EGNM</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.6608333333333332,53.86611111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>ECMMH - GCXO</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -687,6 +3891,18 @@
       <tessellate>1</tessellate>
       <coordinates>
         -16.341666666666665,28.482777777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDHX - EGSS</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        0.23500000000000001,51.885
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -704,6 +3920,42 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECMHS - GCRR</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -13.605277777777777,28.945555555555554
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAISL - EDDF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.570555555555556,50.03333333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HALPX - LRCL</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        23.692222222222224,46.78916666666667
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>HALWY - EVRA</name>
     <styleUrl>#SchengenLine</styleUrl>
     <LineString>
@@ -711,6 +3963,18 @@
       <tessellate>1</tessellate>
       <coordinates>
         23.97111111111111,56.92361111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJFT - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -728,6 +3992,66 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>DABZA - EDDL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.7572222222222225,51.280833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZIM - EDDB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        13.500555555555556,52.36222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLQM - EDDT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        13.287777777777778,52.55972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAIQK - EDDK</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.142777777777778,50.865833333333335
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLRG - EGNM</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.6608333333333332,53.86611111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>ECMFB - ENGM</name>
     <styleUrl>#SchengenLine</styleUrl>
     <LineString>
@@ -735,6 +4059,30 @@
       <tessellate>1</tessellate>
       <coordinates>
         11.08388888888889,60.20277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMLM - LFPO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.3794444444444447,48.723333333333336
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DASXJ - EDDL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.7572222222222225,51.280833333333334
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -764,6 +4112,210 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>HBIOM - LSZH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.548055555555555,47.45805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMEA - LIMC</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.723055555555556,45.63
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>FGRXE - LFPG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.5477777777777777,49.00972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEUUT - EGLL</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.4613888888888889,51.4775
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLQN - LSZH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.548055555555555,47.45805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>LYVEV - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJTR - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>9HVMK - LIPZ</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.351944444444444,45.50527777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMKV - LESO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.7905555555555555,43.35638888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CGDEJ - EHRD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.437222222222222,51.956944444444446
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHUH - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLLM - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>OEIEW - LOWW</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        16.56972222222222,48.11027777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLLJ - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIEFN - EBBR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.484444444444445,50.90138888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZEG - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDCM - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>A7ACD - OTHH</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -771,6 +4323,66 @@
       <tessellate>1</tessellate>
       <coordinates>
         51.608333333333334,25.274444444444445
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>7TVJM - DAAG</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        3.2144444444444447,36.693888888888885
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDAE - LEVX</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.627500000000001,42.22916666666667
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HBJYK - LSGG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.109444444444444,46.23833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HALYG - EPKT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        19.08,50.47416666666667
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZBU - EGMC</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        0.6933333333333334,51.57027777777778
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -788,6 +4400,42 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>GEUYC - EGLL</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.4613888888888889,51.4775
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HBJYE - LFSB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.529166666666667,47.59
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMBK - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>A6EEH - OMDB</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -795,6 +4443,78 @@
       <tessellate>1</tessellate>
       <coordinates>
         55.36,25.249166666666667
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>OELEF - LOWW</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        16.56972222222222,48.11027777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>OOSSK - EBBR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.484444444444445,50.90138888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLML - LFLL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        5.0811111111111105,45.72555555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIEFI - EIDW</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -6.27,53.421388888888885
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HBIJQ - LSGG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.109444444444444,46.23833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZFY - EGNT</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -1.6897222222222223,55.03805555555555
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -812,6 +4532,150 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>EIDHB - LEZL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -5.898888888888888,37.418055555555554
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>FGZHY - LFPO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.3794444444444447,48.723333333333336
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDHH - GCRR</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -13.605277777777777,28.945555555555554
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJBX - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLVS - LEMG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -4.4991666666666665,36.675
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HALYL - LWSK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        21.62138888888889,41.961666666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDWA - EGPK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -4.594444444444444,55.50944444444445
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJPK - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLST - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLOB - EHAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.764166666666667,52.308055555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJTQ - LEVD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -4.851944444444444,41.70611111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZFG - EGGP</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.8497222222222223,53.33361111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>EIDLH - GCLP</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -819,6 +4683,54 @@
       <tessellate>1</tessellate>
       <coordinates>
         -15.386666666666667,27.931944444444447
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJGM - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CSTTN - LPPT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -9.134166666666665,38.774166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HALYO - LBSF</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        23.40833333333333,42.69499999999999
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLZO - EKCH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.65611111111111,55.61805555555556
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -836,6 +4748,30 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>DAIRB - EDDM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.786111111111111,48.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZIZ - LIMC</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.723055555555556,45.63
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>ECMKT - EFHK</name>
     <styleUrl>#SchengenLine</styleUrl>
     <LineString>
@@ -843,6 +4779,78 @@
       <tessellate>1</tessellate>
       <coordinates>
         24.96333333333333,60.31722222222223
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFIN - EGCC</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.275,53.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMJZ - LELN</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -5.6561111111111115,42.58861111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMBT - LEAS</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -6.034722222222222,43.56361111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECKHN - LFPO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.3794444444444447,48.723333333333336
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIENG - LIPE</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.296944444444444,44.530833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GDBCI - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -860,6 +4868,102 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>GEZIK - EGGD</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.7191666666666667,51.382777777777775
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMBS - LEZL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -5.898888888888888,37.418055555555554
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIENL - LEJR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -6.06,36.74472222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLXV - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLGV - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>LYVEO - LFPG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.5477777777777777,49.00972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>N327UP - LEVC</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.4816666666666667,39.489444444444445
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDLC - LPPR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.678055555555554,41.23555555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>TFBRO - BIKF</name>
     <styleUrl>#SchengenLine</styleUrl>
     <LineString>
@@ -867,6 +4971,114 @@
       <tessellate>1</tessellate>
       <coordinates>
         -22.605555555555558,63.985
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDPG - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJFN - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLQL - EGLL</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.4613888888888889,51.4775
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDEE - EIDW</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -6.27,53.421388888888885
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLVA - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMGF - EDDF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.570555555555556,50.03333333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CNNMH - GMTT</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -5.921111111111111,35.73166666666667
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMKM - LPPR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.678055555555554,41.23555555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLUN - LEBB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.9105555555555553,43.301111111111105
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -884,6 +5096,126 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECMLE - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFJL - EKBI</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.151666666666667,55.74027777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECKMI - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZUM - LFLL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        5.0811111111111105,45.72555555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>HBION - LSZH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.548055555555555,47.45805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLZF - LEAL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.5580555555555556,38.282222222222224
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>TCICT - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLAA - LEST</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.415277777777778,42.896388888888886
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFJK - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>YRBGA - LROP</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        26.084999999999997,44.571111111111115
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>TCJRF - LTBA</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -891,6 +5223,234 @@
       <tessellate>1</tessellate>
       <coordinates>
         28.81416666666667,40.976111111111116
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DCALL - LIEE</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.056111111111111,39.24722222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLRY - EDDM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.786111111111111,48.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECKCU - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDAM - EIDW</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -6.27,53.421388888888885
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMIR - LIRQ</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.202777777777778,43.808611111111105
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>PHBXK - EHAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.764166666666667,52.308055555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIENO - LHBP</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        19.261944444444445,47.43944444444444
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEUUG - EGLL</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.4613888888888889,51.4775
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHHA - LSZH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.548055555555555,47.45805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMHB - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMFL - LFPO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.3794444444444447,48.723333333333336
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLVP - LEMD</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.560833333333333,40.47222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLUT - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJFF - LDDU</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        18.26833333333333,42.561388888888885
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLZE - LEMG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -4.4991666666666665,36.675
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>FGKXR - LFPG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.5477777777777777,49.00972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLRG - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>DAISG - EDDF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.570555555555556,50.03333333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIEIB - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -908,6 +5468,30 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>EIEPG - LFOB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.112777777777778,49.45444444444445
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMKX - EDDL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        6.7572222222222225,51.280833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>VPBZA - UUEE</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -915,6 +5499,282 @@
       <tessellate>1</tessellate>
       <coordinates>
         37.41305555555555,55.972500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFJM - EKCH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.65611111111111,55.61805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLZN - LKPR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        14.26,50.100833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLQK - EIDW</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -6.27,53.421388888888885
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLZS - LIEO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.517777777777779,40.89861111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHTD - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLML - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMGE - EGGW</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.3683333333333333,51.874722222222225
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMGY - LEGR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -3.777222222222222,37.18861111111111
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDHX - LIME</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.700277777777776,45.66888888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLRM - LIPE</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        11.296944444444444,44.530833333333334
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHFK - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDAE - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>CSTTS - LPPT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -9.134166666666665,38.774166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIFIY - LIPH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.197777777777778,45.65083333333333
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDCJ - EDDB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        13.500555555555556,52.36222222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLVO - LECO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.377222222222223,43.301944444444445
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLVB - LPPT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -9.134166666666665,38.774166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>SXABE - EBBR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.484444444444445,50.90138888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMEQ - LFPO</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.3794444444444447,48.723333333333336
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDWK - LIRF</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.238888888888889,41.80027777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMJR - LIMC</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        8.723055555555556,45.63
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMFK - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMLM - LEVX</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.627500000000001,42.22916666666667
         2.07833,41.29694
       </coordinates>
     </LineString>
@@ -932,6 +5792,114 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>ECMEA - LEZL</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -5.898888888888888,37.418055555555554
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJTR - LEPA</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.738888888888889,39.55166666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZTA - LFPG</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        2.5477777777777777,49.00972222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLSA - LPPR</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -8.678055555555554,41.23555555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMGZ - EHAM</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.764166666666667,52.308055555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>SXDVV - LGAV</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        23.944444444444446,37.93666666666666
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMKV - LIRP</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        10.395555555555555,43.68277777777777
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECJYX - LIPX</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        10.887777777777778,45.396388888888886
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDHT - EGSS</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        0.23500000000000001,51.885
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>OYRUP - GCLP</name>
     <styleUrl>#NonSchengenLine</styleUrl>
     <LineString>
@@ -944,6 +5912,30 @@
     </LineString>
   </Placemark>
   <Placemark>
+    <name>GEZWZ - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>LYVEV - LIPZ</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        12.351944444444444,45.50527777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
     <name>YLPSH - BIKF</name>
     <styleUrl>#SchengenLine</styleUrl>
     <LineString>
@@ -951,6 +5943,126 @@
       <tessellate>1</tessellate>
       <coordinates>
         -22.605555555555558,63.985
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>EIDHG - EDDK</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.142777777777778,50.865833333333335
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLZZ - EGKK</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.19027777777777777,51.14805555555556
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMBK - LIEE</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        9.056111111111111,39.24722222222222
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>GEZDJ - EGGW</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.3683333333333333,51.874722222222225
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECKHN - LEMH</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        4.2186111111111115,39.862500000000004
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLZO - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHQI - LFMN</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        7.215,43.665277777777774
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECMLD - EGCC</name>
+    <styleUrl>#NonSchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -2.275,53.35388888888889
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECLTG - LFBT</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        -0.002777777777777778,43.18555555555555
+        2.07833,41.29694
+      </coordinates>
+    </LineString>
+  </Placemark>
+  <Placemark>
+    <name>ECHQJ - LEIB</name>
+    <styleUrl>#SchengenLine</styleUrl>
+    <LineString>
+      <altitudeMode>clampToGround</altitudeMode>
+      <tessellate>1</tessellate>
+      <coordinates>
+        1.3730555555555557,38.87277777777778
         2.07833,41.29694
       </coordinates>
     </LineString>
